@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-309f79b6953c08d2cce4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ntrip_client_node",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ntrip_client_components::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ntrip_client_components-c1fe60c097e4641a7bdb.json",
+					"name" : "ntrip_client_components",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ntrip_client_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ntrip_client_node-287a3df58dea0318ad30.json",
+					"name" : "ntrip_client_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ntrip_client_node_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ntrip_client_node_uninstall-12a919dc83fdcf215926.json",
+					"name" : "ntrip_client_node_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-44dc3dd3c390adc369b9.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/dev/ORobotics/localization_ws/build/ntrip_client_node",
+		"source" : "/home/dev/ORobotics/localization_ws/src/ublox_dgnss/ntrip_client_node"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

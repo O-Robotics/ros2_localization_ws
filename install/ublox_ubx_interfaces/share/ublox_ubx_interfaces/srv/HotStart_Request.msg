@@ -1,0 +1,1 @@
+uint8 reset_type

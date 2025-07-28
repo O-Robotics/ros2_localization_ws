@@ -1,0 +1,81 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ublox_ubx_msgs/msg/SigData.msg
+// generated code does not contain a copyright notice
+
+#include "ublox_ubx_msgs/msg/SigFlags.idl"
+
+module ublox_ubx_msgs {
+  module msg {
+    module SigData_Constants {
+      @verbatim (language="comment", text=
+        "Constants for Signal Quality Indicator")
+      const uint8 QUALITY_NO_SIGNAL = 0;
+      const uint8 QUALITY_SEARCHING_SIGNAL = 1;
+      const uint8 QUALITY_SIGNAL_ACQUIRED = 2;
+      const uint8 QUALITY_SIGNAL_UNUSABLE = 3;
+      const uint8 QUALITY_CODE_LOCKED = 4;
+      const uint8 QUALITY_CODE_CARRIER_LOCKED = 5;
+      @verbatim (language="comment", text=
+        "6 and 7 are also considered as code and carrier locked and time synchronized" "\n"        "Constants for Correction Source")
+      const uint8 CORR_NONE = 0;
+      const uint8 CORR_SBAS = 1;
+      const uint8 CORR_BEIDOU = 2;
+      const uint8 CORR_RTCM2 = 3;
+      const uint8 CORR_RTCM3_OSR = 4;
+      const uint8 CORR_RTCM3_SSR = 5;
+      const uint8 CORR_QZSS_SLAS = 6;
+      const uint8 CORR_SPARTN = 7;
+      const uint8 CORR_CLAS = 8;
+      @verbatim (language="comment", text=
+        "Constants for Ionospheric Model")
+      const uint8 IONO_NONE = 0;
+      const uint8 IONO_KLOB_GPS = 1;
+      const uint8 IONO_SBAS = 2;
+      const uint8 IONO_KLOB_BEIDOU = 3;
+    };
+    @verbatim (language="comment", text=
+      "Information for each Signal in UBX-NAV-SIG")
+    struct SigData {
+      @verbatim (language="comment", text=
+        "8 is considered as Iono delay derived from dual frequency observations" "\n"
+        "GNSS identifier")
+      uint8 gnss_id;
+
+      @verbatim (language="comment", text=
+        "Satellite identifier")
+      uint8 sv_id;
+
+      @verbatim (language="comment", text=
+        "New style signal identifier")
+      uint8 sig_id;
+
+      @verbatim (language="comment", text=
+        "Frequency slot + 7 (GLONASS)")
+      uint8 freq_id;
+
+      @verbatim (language="comment", text=
+        "Pseudorange residual (scaled by 0.1)")
+      int16 pr_res;
+
+      @verbatim (language="comment", text=
+        "Carrier-to-noise density ratio")
+      uint8 cno;
+
+      @verbatim (language="comment", text=
+        "Signal quality indicator")
+      uint8 quality_ind;
+
+      @verbatim (language="comment", text=
+        "Correction source")
+      uint8 corr_source;
+
+      @verbatim (language="comment", text=
+        "Ionospheric model used")
+      uint8 iono_model;
+
+      @verbatim (language="comment", text=
+        "Signal related flags")
+      ublox_ubx_msgs::msg::SigFlags sig_flags;
+    };
+  };
+};

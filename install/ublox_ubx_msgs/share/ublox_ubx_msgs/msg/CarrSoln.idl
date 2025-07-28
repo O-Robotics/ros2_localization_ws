@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ublox_ubx_msgs/msg/CarrSoln.msg
+// generated code does not contain a copyright notice
+
+
+module ublox_ubx_msgs {
+  module msg {
+    module CarrSoln_Constants {
+      const uint8 CARRIER_SOLUTION_NO_CARRIER_RANGE_SOLUTION = 0;
+      const uint8 CARRIER_SOLUTION_PHASE_WITH_FLOATING_AMBIGUITIES = 1;
+      const uint8 CARRIER_SOLUTION_PHASE_WITH_FIXED_AMBIGUITIES = 2;
+    };
+    struct CarrSoln {
+      @verbatim (language="comment", text=
+        "Carrier phase solution status")
+      uint8 status;
+    };
+  };
+};

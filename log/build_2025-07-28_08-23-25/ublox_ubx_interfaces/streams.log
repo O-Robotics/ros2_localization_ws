@@ -1,0 +1,245 @@
+[0.096s] Invoking command in '/home/dev/ORobotics/localization_ws/build/ublox_ubx_interfaces': CMAKE_PREFIX_PATH=/home/dev/ORobotics/localization_ws/install/bag_recorder:/opt/ros/humble /usr/bin/cmake --build /home/dev/ORobotics/localization_ws/build/ublox_ubx_interfaces -- -j4 -l4
+[0.410s] [35m[1mConsolidate compiler generated dependencies of target ublox_ubx_interfaces__rosidl_generator_c[0m
+[0.627s] [  1%] Built target ublox_ubx_interfaces__cpp
+[0.751s] [ 12%] Built target ublox_ubx_interfaces__rosidl_generator_c
+[0.781s] [35m[1mConsolidate compiler generated dependencies of target ublox_ubx_interfaces__rosidl_typesupport_cpp[0m
+[0.914s] [35m[1mConsolidate compiler generated dependencies of target ublox_ubx_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[0.995s] [ 12%] Built target ament_cmake_python_copy_ublox_ubx_interfaces
+[1.055s] [35m[1mConsolidate compiler generated dependencies of target ublox_ubx_interfaces__rosidl_typesupport_introspection_cpp[0m
+[1.097s] [ 23%] Built target ublox_ubx_interfaces__rosidl_typesupport_cpp
+[1.281s] [35m[1mConsolidate compiler generated dependencies of target ublox_ubx_interfaces__rosidl_typesupport_fastrtps_c[0m
+[1.389s] [ 34%] Built target ublox_ubx_interfaces__rosidl_typesupport_fastrtps_cpp
+[1.481s] [35m[1mConsolidate compiler generated dependencies of target ublox_ubx_interfaces__rosidl_typesupport_introspection_c[0m
+[1.487s] [ 45%] Built target ublox_ubx_interfaces__rosidl_typesupport_introspection_cpp
+[1.692s] [ 56%] Built target ublox_ubx_interfaces__rosidl_typesupport_fastrtps_c
+[1.692s] [35m[1mConsolidate compiler generated dependencies of target ublox_ubx_interfaces__rosidl_typesupport_c[0m
+[1.860s] [ 67%] Built target ublox_ubx_interfaces__rosidl_typesupport_introspection_c
+[1.976s] [ 78%] Built target ublox_ubx_interfaces__rosidl_typesupport_c
+[2.427s] [ 78%] Built target ublox_ubx_interfaces
+[2.950s] [ 80%] Built target ublox_ubx_interfaces__py
+[3.195s] [35m[1mConsolidate compiler generated dependencies of target ublox_ubx_interfaces__rosidl_generator_py[0m
+[3.552s] [ 89%] Built target ublox_ubx_interfaces__rosidl_generator_py
+[3.752s] [35m[1mConsolidate compiler generated dependencies of target ublox_ubx_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[3.804s] [35m[1mConsolidate compiler generated dependencies of target ublox_ubx_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[3.895s] [35m[1mConsolidate compiler generated dependencies of target ublox_ubx_interfaces__rosidl_typesupport_c__pyext[0m
+[4.061s] [ 92%] Built target ublox_ubx_interfaces__rosidl_typesupport_introspection_c__pyext
+[4.115s] [ 96%] Built target ublox_ubx_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[4.193s] [100%] Built target ublox_ubx_interfaces__rosidl_typesupport_c__pyext
+[6.709s] running egg_info
+[6.743s] writing ublox_ubx_interfaces.egg-info/PKG-INFO
+[6.744s] writing dependency_links to ublox_ubx_interfaces.egg-info/dependency_links.txt
+[6.748s] writing top-level names to ublox_ubx_interfaces.egg-info/top_level.txt
+[6.803s] reading manifest file 'ublox_ubx_interfaces.egg-info/SOURCES.txt'
+[6.823s] writing manifest file 'ublox_ubx_interfaces.egg-info/SOURCES.txt'
+[7.396s] [100%] Built target ament_cmake_python_build_ublox_ubx_interfaces_egg
+[7.583s] Invoked command in '/home/dev/ORobotics/localization_ws/build/ublox_ubx_interfaces' returned '0': CMAKE_PREFIX_PATH=/home/dev/ORobotics/localization_ws/install/bag_recorder:/opt/ros/humble /usr/bin/cmake --build /home/dev/ORobotics/localization_ws/build/ublox_ubx_interfaces -- -j4 -l4
+[7.586s] Invoking command in '/home/dev/ORobotics/localization_ws/build/ublox_ubx_interfaces': CMAKE_PREFIX_PATH=/home/dev/ORobotics/localization_ws/install/bag_recorder:/opt/ros/humble /usr/bin/cmake --install /home/dev/ORobotics/localization_ws/build/ublox_ubx_interfaces
+[7.661s] -- Install configuration: ""
+[7.664s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/share/ament_index/resource_index/rosidl_interfaces/ublox_ubx_interfaces
+[7.668s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/include/ublox_ubx_interfaces/ublox_ubx_interfaces
+[7.671s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/include/ublox_ubx_interfaces/ublox_ubx_interfaces/msg
+[7.673s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/include/ublox_ubx_interfaces/ublox_ubx_interfaces/msg/rosidl_generator_c__visibility_control.h
+[7.676s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/include/ublox_ubx_interfaces/ublox_ubx_interfaces/srv
+[7.693s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/include/ublox_ubx_interfaces/ublox_ubx_interfaces/srv/warm_start.h
+[7.699s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/include/ublox_ubx_interfaces/ublox_ubx_interfaces/srv/cold_start.h
+[7.705s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/include/ublox_ubx_interfaces/ublox_ubx_interfaces/srv/detail
+[7.706s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/include/ublox_ubx_interfaces/ublox_ubx_interfaces/srv/detail/warm_start__type_support.h
+[7.709s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/include/ublox_ubx_interfaces/ublox_ubx_interfaces/srv/detail/cold_start__functions.c
+[7.710s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/include/ublox_ubx_interfaces/ublox_ubx_interfaces/srv/detail/cold_start__type_support.h
+[7.712s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/include/ublox_ubx_interfaces/ublox_ubx_interfaces/srv/detail/hot_start__functions.c
+[7.715s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/include/ublox_ubx_interfaces/ublox_ubx_interfaces/srv/detail/hot_start__functions.h
+[7.718s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/include/ublox_ubx_interfaces/ublox_ubx_interfaces/srv/detail/reset_odo__struct.h
+[7.720s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/include/ublox_ubx_interfaces/ublox_ubx_interfaces/srv/detail/hot_start__type_support.h
+[7.723s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/include/ublox_ubx_interfaces/ublox_ubx_interfaces/srv/detail/reset_odo__type_support.h
+[7.731s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/include/ublox_ubx_interfaces/ublox_ubx_interfaces/srv/detail/warm_start__struct.h
+[7.734s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/include/ublox_ubx_interfaces/ublox_ubx_interfaces/srv/detail/cold_start__struct.h
+[7.743s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/include/ublox_ubx_interfaces/ublox_ubx_interfaces/srv/detail/reset_odo__functions.c
+[7.748s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/include/ublox_ubx_interfaces/ublox_ubx_interfaces/srv/detail/warm_start__functions.c
+[7.753s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/include/ublox_ubx_interfaces/ublox_ubx_interfaces/srv/detail/reset_odo__functions.h
+[7.755s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/include/ublox_ubx_interfaces/ublox_ubx_interfaces/srv/detail/cold_start__functions.h
+[7.760s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/include/ublox_ubx_interfaces/ublox_ubx_interfaces/srv/detail/hot_start__struct.h
+[7.763s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/include/ublox_ubx_interfaces/ublox_ubx_interfaces/srv/detail/warm_start__functions.h
+[7.785s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/include/ublox_ubx_interfaces/ublox_ubx_interfaces/srv/reset_odo.h
+[7.808s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/include/ublox_ubx_interfaces/ublox_ubx_interfaces/srv/hot_start.h
+[7.811s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/share/ublox_ubx_interfaces/environment/library_path.sh
+[7.831s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/share/ublox_ubx_interfaces/environment/library_path.dsv
+[7.847s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/lib/libublox_ubx_interfaces__rosidl_generator_c.so
+[7.880s] -- Set runtime path of "/home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/lib/libublox_ubx_interfaces__rosidl_generator_c.so" to ""
+[7.881s] -- Up-to-date: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/include/ublox_ubx_interfaces/ublox_ubx_interfaces
+[7.883s] -- Up-to-date: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/include/ublox_ubx_interfaces/ublox_ubx_interfaces/msg
+[7.884s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/include/ublox_ubx_interfaces/ublox_ubx_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[7.901s] -- Up-to-date: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/include/ublox_ubx_interfaces/ublox_ubx_interfaces/srv
+[7.909s] -- Up-to-date: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/include/ublox_ubx_interfaces/ublox_ubx_interfaces/srv/detail
+[7.912s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/include/ublox_ubx_interfaces/ublox_ubx_interfaces/srv/detail/warm_start__rosidl_typesupport_fastrtps_c.h
+[7.914s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/include/ublox_ubx_interfaces/ublox_ubx_interfaces/srv/detail/hot_start__rosidl_typesupport_fastrtps_c.h
+[7.916s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/include/ublox_ubx_interfaces/ublox_ubx_interfaces/srv/detail/cold_start__rosidl_typesupport_fastrtps_c.h
+[7.942s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/include/ublox_ubx_interfaces/ublox_ubx_interfaces/srv/detail/reset_odo__rosidl_typesupport_fastrtps_c.h
+[7.944s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/lib/libublox_ubx_interfaces__rosidl_typesupport_fastrtps_c.so
+[7.951s] -- Set runtime path of "/home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/lib/libublox_ubx_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[7.956s] -- Up-to-date: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/include/ublox_ubx_interfaces/ublox_ubx_interfaces
+[7.972s] -- Up-to-date: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/include/ublox_ubx_interfaces/ublox_ubx_interfaces/msg
+[7.974s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/include/ublox_ubx_interfaces/ublox_ubx_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[7.975s] -- Up-to-date: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/include/ublox_ubx_interfaces/ublox_ubx_interfaces/srv
+[7.976s] -- Up-to-date: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/include/ublox_ubx_interfaces/ublox_ubx_interfaces/srv/detail
+[7.978s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/include/ublox_ubx_interfaces/ublox_ubx_interfaces/srv/detail/reset_odo__rosidl_typesupport_introspection_c.h
+[7.981s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/include/ublox_ubx_interfaces/ublox_ubx_interfaces/srv/detail/warm_start__rosidl_typesupport_introspection_c.h
+[8.006s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/include/ublox_ubx_interfaces/ublox_ubx_interfaces/srv/detail/reset_odo__type_support.c
+[8.010s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/include/ublox_ubx_interfaces/ublox_ubx_interfaces/srv/detail/cold_start__rosidl_typesupport_introspection_c.h
+[8.026s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/include/ublox_ubx_interfaces/ublox_ubx_interfaces/srv/detail/cold_start__type_support.c
+[8.041s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/include/ublox_ubx_interfaces/ublox_ubx_interfaces/srv/detail/hot_start__type_support.c
+[8.044s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/include/ublox_ubx_interfaces/ublox_ubx_interfaces/srv/detail/warm_start__type_support.c
+[8.058s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/include/ublox_ubx_interfaces/ublox_ubx_interfaces/srv/detail/hot_start__rosidl_typesupport_introspection_c.h
+[8.062s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/lib/libublox_ubx_interfaces__rosidl_typesupport_introspection_c.so
+[8.072s] -- Set runtime path of "/home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/lib/libublox_ubx_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[8.084s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/lib/libublox_ubx_interfaces__rosidl_typesupport_c.so
+[8.119s] -- Set runtime path of "/home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/lib/libublox_ubx_interfaces__rosidl_typesupport_c.so" to ""
+[8.125s] -- Up-to-date: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/include/ublox_ubx_interfaces/ublox_ubx_interfaces
+[8.128s] -- Up-to-date: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/include/ublox_ubx_interfaces/ublox_ubx_interfaces/msg
+[8.134s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/include/ublox_ubx_interfaces/ublox_ubx_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[8.138s] -- Up-to-date: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/include/ublox_ubx_interfaces/ublox_ubx_interfaces/srv
+[8.143s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/include/ublox_ubx_interfaces/ublox_ubx_interfaces/srv/cold_start.hpp
+[8.154s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/include/ublox_ubx_interfaces/ublox_ubx_interfaces/srv/hot_start.hpp
+[8.166s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/include/ublox_ubx_interfaces/ublox_ubx_interfaces/srv/reset_odo.hpp
+[8.169s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/include/ublox_ubx_interfaces/ublox_ubx_interfaces/srv/warm_start.hpp
+[8.175s] -- Up-to-date: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/include/ublox_ubx_interfaces/ublox_ubx_interfaces/srv/detail
+[8.183s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/include/ublox_ubx_interfaces/ublox_ubx_interfaces/srv/detail/warm_start__traits.hpp
+[8.186s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/include/ublox_ubx_interfaces/ublox_ubx_interfaces/srv/detail/warm_start__struct.hpp
+[8.198s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/include/ublox_ubx_interfaces/ublox_ubx_interfaces/srv/detail/cold_start__type_support.hpp
+[8.209s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/include/ublox_ubx_interfaces/ublox_ubx_interfaces/srv/detail/reset_odo__builder.hpp
+[8.216s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/include/ublox_ubx_interfaces/ublox_ubx_interfaces/srv/detail/hot_start__builder.hpp
+[8.224s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/include/ublox_ubx_interfaces/ublox_ubx_interfaces/srv/detail/warm_start__type_support.hpp
+[8.227s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/include/ublox_ubx_interfaces/ublox_ubx_interfaces/srv/detail/hot_start__struct.hpp
+[8.236s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/include/ublox_ubx_interfaces/ublox_ubx_interfaces/srv/detail/hot_start__traits.hpp
+[8.244s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/include/ublox_ubx_interfaces/ublox_ubx_interfaces/srv/detail/reset_odo__traits.hpp
+[8.259s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/include/ublox_ubx_interfaces/ublox_ubx_interfaces/srv/detail/reset_odo__type_support.hpp
+[8.269s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/include/ublox_ubx_interfaces/ublox_ubx_interfaces/srv/detail/reset_odo__struct.hpp
+[8.273s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/include/ublox_ubx_interfaces/ublox_ubx_interfaces/srv/detail/cold_start__traits.hpp
+[8.282s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/include/ublox_ubx_interfaces/ublox_ubx_interfaces/srv/detail/warm_start__builder.hpp
+[8.287s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/include/ublox_ubx_interfaces/ublox_ubx_interfaces/srv/detail/hot_start__type_support.hpp
+[8.300s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/include/ublox_ubx_interfaces/ublox_ubx_interfaces/srv/detail/cold_start__builder.hpp
+[8.307s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/include/ublox_ubx_interfaces/ublox_ubx_interfaces/srv/detail/cold_start__struct.hpp
+[8.318s] -- Up-to-date: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/include/ublox_ubx_interfaces/ublox_ubx_interfaces
+[8.321s] -- Up-to-date: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/include/ublox_ubx_interfaces/ublox_ubx_interfaces/msg
+[8.324s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/include/ublox_ubx_interfaces/ublox_ubx_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[8.333s] -- Up-to-date: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/include/ublox_ubx_interfaces/ublox_ubx_interfaces/srv
+[8.336s] -- Up-to-date: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/include/ublox_ubx_interfaces/ublox_ubx_interfaces/srv/detail
+[8.343s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/include/ublox_ubx_interfaces/ublox_ubx_interfaces/srv/detail/dds_fastrtps
+[8.344s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/include/ublox_ubx_interfaces/ublox_ubx_interfaces/srv/detail/hot_start__rosidl_typesupport_fastrtps_cpp.hpp
+[8.349s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/include/ublox_ubx_interfaces/ublox_ubx_interfaces/srv/detail/warm_start__rosidl_typesupport_fastrtps_cpp.hpp
+[8.365s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/include/ublox_ubx_interfaces/ublox_ubx_interfaces/srv/detail/reset_odo__rosidl_typesupport_fastrtps_cpp.hpp
+[8.373s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/include/ublox_ubx_interfaces/ublox_ubx_interfaces/srv/detail/cold_start__rosidl_typesupport_fastrtps_cpp.hpp
+[8.382s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/lib/libublox_ubx_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[8.386s] -- Set runtime path of "/home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/lib/libublox_ubx_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[8.387s] -- Up-to-date: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/include/ublox_ubx_interfaces/ublox_ubx_interfaces
+[8.408s] -- Up-to-date: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/include/ublox_ubx_interfaces/ublox_ubx_interfaces/srv
+[8.408s] -- Up-to-date: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/include/ublox_ubx_interfaces/ublox_ubx_interfaces/srv/detail
+[8.418s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/include/ublox_ubx_interfaces/ublox_ubx_interfaces/srv/detail/warm_start__type_support.cpp
+[8.418s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/include/ublox_ubx_interfaces/ublox_ubx_interfaces/srv/detail/reset_odo__type_support.cpp
+[8.432s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/include/ublox_ubx_interfaces/ublox_ubx_interfaces/srv/detail/cold_start__type_support.cpp
+[8.437s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/include/ublox_ubx_interfaces/ublox_ubx_interfaces/srv/detail/cold_start__rosidl_typesupport_introspection_cpp.hpp
+[8.442s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/include/ublox_ubx_interfaces/ublox_ubx_interfaces/srv/detail/hot_start__rosidl_typesupport_introspection_cpp.hpp
+[8.448s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/include/ublox_ubx_interfaces/ublox_ubx_interfaces/srv/detail/warm_start__rosidl_typesupport_introspection_cpp.hpp
+[8.454s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/include/ublox_ubx_interfaces/ublox_ubx_interfaces/srv/detail/reset_odo__rosidl_typesupport_introspection_cpp.hpp
+[8.458s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/include/ublox_ubx_interfaces/ublox_ubx_interfaces/srv/detail/hot_start__type_support.cpp
+[8.472s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/lib/libublox_ubx_interfaces__rosidl_typesupport_introspection_cpp.so
+[8.490s] -- Set runtime path of "/home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/lib/libublox_ubx_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[8.497s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/lib/libublox_ubx_interfaces__rosidl_typesupport_cpp.so
+[8.498s] -- Set runtime path of "/home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/lib/libublox_ubx_interfaces__rosidl_typesupport_cpp.so" to ""
+[8.508s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/share/ublox_ubx_interfaces/environment/pythonpath.sh
+[8.509s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/share/ublox_ubx_interfaces/environment/pythonpath.dsv
+[8.510s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/local/lib/python3.10/dist-packages/ublox_ubx_interfaces-0.5.3-py3.10.egg-info
+[8.514s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/local/lib/python3.10/dist-packages/ublox_ubx_interfaces-0.5.3-py3.10.egg-info/PKG-INFO
+[8.522s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/local/lib/python3.10/dist-packages/ublox_ubx_interfaces-0.5.3-py3.10.egg-info/top_level.txt
+[8.529s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/local/lib/python3.10/dist-packages/ublox_ubx_interfaces-0.5.3-py3.10.egg-info/SOURCES.txt
+[8.540s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/local/lib/python3.10/dist-packages/ublox_ubx_interfaces-0.5.3-py3.10.egg-info/dependency_links.txt
+[8.541s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/local/lib/python3.10/dist-packages/ublox_ubx_interfaces
+[8.549s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/local/lib/python3.10/dist-packages/ublox_ubx_interfaces/ublox_ubx_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[8.560s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/local/lib/python3.10/dist-packages/ublox_ubx_interfaces/__init__.py
+[8.562s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/local/lib/python3.10/dist-packages/ublox_ubx_interfaces/ublox_ubx_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[8.565s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/local/lib/python3.10/dist-packages/ublox_ubx_interfaces/_ublox_ubx_interfaces_s.ep.rosidl_typesupport_c.c
+[8.567s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/local/lib/python3.10/dist-packages/ublox_ubx_interfaces/ublox_ubx_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[8.570s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/local/lib/python3.10/dist-packages/ublox_ubx_interfaces/_ublox_ubx_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[8.578s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/local/lib/python3.10/dist-packages/ublox_ubx_interfaces/libublox_ubx_interfaces__rosidl_generator_py.so
+[8.579s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/local/lib/python3.10/dist-packages/ublox_ubx_interfaces/srv
+[8.580s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/local/lib/python3.10/dist-packages/ublox_ubx_interfaces/srv/_hot_start.py
+[8.580s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/local/lib/python3.10/dist-packages/ublox_ubx_interfaces/srv/__init__.py
+[8.581s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/local/lib/python3.10/dist-packages/ublox_ubx_interfaces/srv/_warm_start_s.c
+[8.586s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/local/lib/python3.10/dist-packages/ublox_ubx_interfaces/srv/_cold_start_s.c
+[8.587s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/local/lib/python3.10/dist-packages/ublox_ubx_interfaces/srv/_hot_start_s.c
+[8.588s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/local/lib/python3.10/dist-packages/ublox_ubx_interfaces/srv/_reset_odo_s.c
+[8.610s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/local/lib/python3.10/dist-packages/ublox_ubx_interfaces/srv/_reset_odo.py
+[8.611s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/local/lib/python3.10/dist-packages/ublox_ubx_interfaces/srv/_cold_start.py
+[8.613s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/local/lib/python3.10/dist-packages/ublox_ubx_interfaces/srv/_warm_start.py
+[8.622s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/local/lib/python3.10/dist-packages/ublox_ubx_interfaces/_ublox_ubx_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[9.119s] Listing '/home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/local/lib/python3.10/dist-packages/ublox_ubx_interfaces'...
+[9.120s] Compiling '/home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/local/lib/python3.10/dist-packages/ublox_ubx_interfaces/__init__.py'...
+[9.120s] Listing '/home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/local/lib/python3.10/dist-packages/ublox_ubx_interfaces/srv'...
+[9.121s] Compiling '/home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/local/lib/python3.10/dist-packages/ublox_ubx_interfaces/srv/__init__.py'...
+[9.122s] Compiling '/home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/local/lib/python3.10/dist-packages/ublox_ubx_interfaces/srv/_cold_start.py'...
+[9.122s] Compiling '/home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/local/lib/python3.10/dist-packages/ublox_ubx_interfaces/srv/_hot_start.py'...
+[9.123s] Compiling '/home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/local/lib/python3.10/dist-packages/ublox_ubx_interfaces/srv/_reset_odo.py'...
+[9.123s] Compiling '/home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/local/lib/python3.10/dist-packages/ublox_ubx_interfaces/srv/_warm_start.py'...
+[9.227s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/local/lib/python3.10/dist-packages/ublox_ubx_interfaces/ublox_ubx_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[9.235s] -- Set runtime path of "/home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/local/lib/python3.10/dist-packages/ublox_ubx_interfaces/ublox_ubx_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""
+[9.237s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/local/lib/python3.10/dist-packages/ublox_ubx_interfaces/ublox_ubx_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[9.245s] -- Set runtime path of "/home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/local/lib/python3.10/dist-packages/ublox_ubx_interfaces/ublox_ubx_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""
+[9.248s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/local/lib/python3.10/dist-packages/ublox_ubx_interfaces/ublox_ubx_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[9.253s] -- Set runtime path of "/home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/local/lib/python3.10/dist-packages/ublox_ubx_interfaces/ublox_ubx_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""
+[9.254s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/lib/libublox_ubx_interfaces__rosidl_generator_py.so
+[9.260s] -- Set runtime path of "/home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/lib/libublox_ubx_interfaces__rosidl_generator_py.so" to ""
+[9.261s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/share/ublox_ubx_interfaces/srv/HotStart.idl
+[9.264s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/share/ublox_ubx_interfaces/srv/WarmStart.idl
+[9.268s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/share/ublox_ubx_interfaces/srv/ColdStart.idl
+[9.272s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/share/ublox_ubx_interfaces/srv/ResetODO.idl
+[9.274s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/share/ublox_ubx_interfaces/srv/HotStart.srv
+[9.277s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/share/ublox_ubx_interfaces/srv/HotStart_Request.msg
+[9.281s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/share/ublox_ubx_interfaces/srv/HotStart_Response.msg
+[9.284s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/share/ublox_ubx_interfaces/srv/WarmStart.srv
+[9.287s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/share/ublox_ubx_interfaces/srv/WarmStart_Request.msg
+[9.293s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/share/ublox_ubx_interfaces/srv/WarmStart_Response.msg
+[9.295s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/share/ublox_ubx_interfaces/srv/ColdStart.srv
+[9.299s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/share/ublox_ubx_interfaces/srv/ColdStart_Request.msg
+[9.303s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/share/ublox_ubx_interfaces/srv/ColdStart_Response.msg
+[9.306s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/share/ublox_ubx_interfaces/srv/ResetODO.srv
+[9.310s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/share/ublox_ubx_interfaces/srv/ResetODO_Request.msg
+[9.312s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/share/ublox_ubx_interfaces/srv/ResetODO_Response.msg
+[9.315s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/share/ament_index/resource_index/package_run_dependencies/ublox_ubx_interfaces
+[9.319s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/share/ament_index/resource_index/parent_prefix_path/ublox_ubx_interfaces
+[9.321s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/share/ublox_ubx_interfaces/environment/ament_prefix_path.sh
+[9.324s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/share/ublox_ubx_interfaces/environment/ament_prefix_path.dsv
+[9.326s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/share/ublox_ubx_interfaces/environment/path.sh
+[9.328s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/share/ublox_ubx_interfaces/environment/path.dsv
+[9.331s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/share/ublox_ubx_interfaces/local_setup.bash
+[9.334s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/share/ublox_ubx_interfaces/local_setup.sh
+[9.336s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/share/ublox_ubx_interfaces/local_setup.zsh
+[9.339s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/share/ublox_ubx_interfaces/local_setup.dsv
+[9.342s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/share/ublox_ubx_interfaces/package.dsv
+[9.346s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/share/ament_index/resource_index/packages/ublox_ubx_interfaces
+[9.349s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/share/ublox_ubx_interfaces/cmake/export_ublox_ubx_interfaces__rosidl_generator_cExport.cmake
+[9.353s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/share/ublox_ubx_interfaces/cmake/export_ublox_ubx_interfaces__rosidl_generator_cExport-noconfig.cmake
+[9.355s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/share/ublox_ubx_interfaces/cmake/export_ublox_ubx_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[9.359s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/share/ublox_ubx_interfaces/cmake/export_ublox_ubx_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[9.361s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/share/ublox_ubx_interfaces/cmake/ublox_ubx_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[9.365s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/share/ublox_ubx_interfaces/cmake/ublox_ubx_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[9.367s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/share/ublox_ubx_interfaces/cmake/ublox_ubx_interfaces__rosidl_typesupport_cExport.cmake
+[9.371s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/share/ublox_ubx_interfaces/cmake/ublox_ubx_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[9.375s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/share/ublox_ubx_interfaces/cmake/export_ublox_ubx_interfaces__rosidl_generator_cppExport.cmake
+[9.377s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/share/ublox_ubx_interfaces/cmake/export_ublox_ubx_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[9.381s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/share/ublox_ubx_interfaces/cmake/export_ublox_ubx_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[9.384s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/share/ublox_ubx_interfaces/cmake/ublox_ubx_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[9.387s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/share/ublox_ubx_interfaces/cmake/ublox_ubx_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[9.391s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/share/ublox_ubx_interfaces/cmake/ublox_ubx_interfaces__rosidl_typesupport_cppExport.cmake
+[9.395s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/share/ublox_ubx_interfaces/cmake/ublox_ubx_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[9.438s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/share/ublox_ubx_interfaces/cmake/export_ublox_ubx_interfaces__rosidl_generator_pyExport.cmake
+[9.440s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/share/ublox_ubx_interfaces/cmake/export_ublox_ubx_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[9.441s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/share/ublox_ubx_interfaces/cmake/rosidl_cmake-extras.cmake
+[9.442s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/share/ublox_ubx_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[9.443s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/share/ublox_ubx_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[9.445s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/share/ublox_ubx_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[9.446s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/share/ublox_ubx_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[9.447s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/share/ublox_ubx_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.448s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/share/ublox_ubx_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[9.449s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/share/ublox_ubx_interfaces/cmake/ublox_ubx_interfacesConfig.cmake
+[9.450s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/share/ublox_ubx_interfaces/cmake/ublox_ubx_interfacesConfig-version.cmake
+[9.451s] -- Installing: /home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/share/ublox_ubx_interfaces/package.xml
+[9.460s] Invoked command in '/home/dev/ORobotics/localization_ws/build/ublox_ubx_interfaces' returned '0': CMAKE_PREFIX_PATH=/home/dev/ORobotics/localization_ws/install/bag_recorder:/opt/ros/humble /usr/bin/cmake --install /home/dev/ORobotics/localization_ws/build/ublox_ubx_interfaces

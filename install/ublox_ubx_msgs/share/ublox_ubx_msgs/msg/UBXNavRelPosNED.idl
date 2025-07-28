@@ -1,0 +1,123 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ublox_ubx_msgs/msg/UBXNavRelPosNED.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+#include "ublox_ubx_msgs/msg/CarrSoln.idl"
+
+module ublox_ubx_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "this message contains a UBX-NAV-ODO (0x01 0x3c) record " "\n"
+      "Relative position information in NED frame")
+    struct UBXNavRelPosNED {
+      @verbatim (language="comment", text=
+        "Header timestamp should be acquisition time")
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "message version")
+      uint8 version;
+
+      @verbatim (language="comment", text=
+        "reference station ID. Must be in the range 0..4096")
+      uint16 ref_station_id;
+
+      @verbatim (language="comment", text=
+        "ms - GPS Time of week of the navigation epoch")
+      uint32 itow;
+
+      @verbatim (language="comment", text=
+        "cm - North component of relative position vector")
+      int32 rel_pos_n;
+
+      @verbatim (language="comment", text=
+        "cm - East component of relative position vector")
+      int32 rel_pos_e;
+
+      @verbatim (language="comment", text=
+        "cm - Down component of relative position vector")
+      int32 rel_pos_d;
+
+      @verbatim (language="comment", text=
+        "cm - Length of the relative position vector")
+      int32 rel_pos_length;
+
+      @verbatim (language="comment", text=
+        "deg scale 1e-5 - Heading of the relative position vector")
+      int32 rel_pos_heading;
+
+      @verbatim (language="comment", text=
+        "mm scale 0.1 - full HP North is given by relPosN + (relPosHPN * 1e-2)")
+      int8 rel_pos_hp_n;
+
+      @verbatim (language="comment", text=
+        "mm scale 0.1 - full HP East is given by relPosE + (relPosHPE * 1e-2)")
+      int8 rel_pos_hp_e;
+
+      @verbatim (language="comment", text=
+        "mm scale 0.1 - full HP Down is given by relPosD + (relPosHPD * 1e-2)")
+      int8 rel_pos_hp_d;
+
+      @verbatim (language="comment", text=
+        "mm scale 0.1 - full HP length is given by relPosLength + (relPosHPLength * 1e-2)")
+      int8 rel_pos_hp_length;
+
+      @verbatim (language="comment", text=
+        "mm scale 0.1 - Accuracy of relative position North Component")
+      uint32 acc_n;
+
+      @verbatim (language="comment", text=
+        "mm scale 0.1 - Accuracy of relative position East Component")
+      uint32 acc_e;
+
+      @verbatim (language="comment", text=
+        "mm scale 0.1 - Accuracy of relative position Down Component")
+      uint32 acc_d;
+
+      @verbatim (language="comment", text=
+        "mm scale 0.1 - Accuracy of length of the relative position vector")
+      uint32 acc_length;
+
+      @verbatim (language="comment", text=
+        "deg scale 1e-5 - Accuracy of heading of the relative position vector")
+      uint32 acc_heading;
+
+      @verbatim (language="comment", text=
+        "A valid fix (i.e within DOP & accuracy masks)")
+      boolean gnss_fix_ok;
+
+      @verbatim (language="comment", text=
+        "differential corrections were applied")
+      boolean diff_soln;
+
+      @verbatim (language="comment", text=
+        "relative position components and accuracies are valid and, in moving base mode only, if baseline is valid")
+      boolean rel_pos_valid;
+
+      @verbatim (language="comment", text=
+        "carrier phase range solution")
+      ublox_ubx_msgs::msg::CarrSoln carr_soln;
+
+      @verbatim (language="comment", text=
+        "if the received is operating in moving base mode")
+      boolean is_moving;
+
+      @verbatim (language="comment", text=
+        "if extrapolated reference position was used to compute moving base solution this epoch.")
+      boolean ref_pos_miss;
+
+      @verbatim (language="comment", text=
+        "if extrapolated reference observations were used to compute moving base solution this epoch.")
+      boolean ref_obs_miss;
+
+      @verbatim (language="comment", text=
+        "relPosHeading is valid")
+      boolean rel_pos_heading_valid;
+
+      @verbatim (language="comment", text=
+        "components of the relative position vector (including the high-precision parts) are normalized")
+      boolean rel_pos_normalized;
+    };
+  };
+};

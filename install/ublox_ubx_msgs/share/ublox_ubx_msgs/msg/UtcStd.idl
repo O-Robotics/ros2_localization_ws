@@ -1,0 +1,41 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ublox_ubx_msgs/msg/UtcStd.msg
+// generated code does not contain a copyright notice
+
+
+module ublox_ubx_msgs {
+  module msg {
+    module UtcStd_Constants {
+      const uint8 NOT_AVAILABLE = 0;
+      @verbatim (language="comment", text=
+        "Communications Research Labratory (CRL),Tokyo, Japan")
+      const uint8 CRL = 1;
+      @verbatim (language="comment", text=
+        "National Institute of Standards andTechnology (NIST)")
+      const uint8 NIST = 2;
+      @verbatim (language="comment", text=
+        "U.S. Naval Observatory (USNO)")
+      const uint8 USNO = 3;
+      @verbatim (language="comment", text=
+        "International Bureau of Weights andMeasures (BIPM)")
+      const uint8 BIPM = 4;
+      @verbatim (language="comment", text=
+        "European laboratories")
+      const uint8 EURO = 5;
+      @verbatim (language="comment", text=
+        "Former Soviet Union")
+      const uint8 SU = 6;
+      @verbatim (language="comment", text=
+        "National Time Service Center (NTSC) China")
+      const uint8 NTSC = 7;
+      @verbatim (language="comment", text=
+        "Unknown time source")
+      const uint8 UTC_UNKNOWN = 15;
+    };
+    struct UtcStd {
+      @verbatim (language="comment", text=
+        "uc standard id")
+      uint8 id;
+    };
+  };
+};

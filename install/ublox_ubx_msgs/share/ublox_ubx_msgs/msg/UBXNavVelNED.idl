@@ -1,0 +1,54 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ublox_ubx_msgs/msg/UBXNavVelNED.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module ublox_ubx_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "this message contains a UBX-NAV-VELNED (0x01 0x12) record" "\n"
+      "Velocity solution in NED frame")
+    struct UBXNavVelNED {
+      @verbatim (language="comment", text=
+        "Header timestamp should be acquisition time")
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "ms - GPS Time of week of the navigation epoch")
+      uint32 itow;
+
+      @verbatim (language="comment", text=
+        "cm/s - NED north velocity")
+      int32 vel_n;
+
+      @verbatim (language="comment", text=
+        "cm/s - NED east velocity")
+      int32 vel_e;
+
+      @verbatim (language="comment", text=
+        "cm/s - NED down velocity")
+      int32 vel_d;
+
+      @verbatim (language="comment", text=
+        "cm/s - speed (3-D)")
+      uint32 speed;
+
+      @verbatim (language="comment", text=
+        "cm/s - ground speed (2-D)")
+      uint32 g_speed;
+
+      @verbatim (language="comment", text=
+        "deg scale ie-5 - heading of motion (2-D)")
+      int32 heading;
+
+      @verbatim (language="comment", text=
+        "cm/s - speed accuracy estimate")
+      uint32 s_acc;
+
+      @verbatim (language="comment", text=
+        "deg scale ie-5 - course/heading accruracy estime (both motion and vehicle)")
+      uint32 c_acc;
+    };
+  };
+};

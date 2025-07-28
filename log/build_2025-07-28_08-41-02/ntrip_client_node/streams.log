@@ -1,0 +1,79 @@
+[1.977s] Invoking command in '/home/dev/ORobotics/localization_ws/build/ntrip_client_node': AMENT_PREFIX_PATH=/home/dev/ORobotics/localization_ws/install/rtcm_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dev/ORobotics/localization_ws/install/rtcm_msgs:/home/dev/ORobotics/localization_ws/install/bag_recorder:/opt/ros/humble LD_LIBRARY_PATH=/home/dev/ORobotics/localization_ws/install/rtcm_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dev/ORobotics/localization_ws/install/rtcm_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/dev/ORobotics/localization_ws/src/ublox_dgnss/ntrip_client_node -DCMAKE_INSTALL_PREFIX=/home/dev/ORobotics/localization_ws/install/ntrip_client_node
+[2.580s] -- The C compiler identification is GNU 11.4.0
+[3.279s] -- The CXX compiler identification is GNU 11.4.0
+[3.359s] -- Detecting C compiler ABI info
+[4.344s] -- Detecting C compiler ABI info - done
+[4.432s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.440s] -- Detecting C compile features
+[4.442s] -- Detecting C compile features - done
+[4.495s] -- Detecting CXX compiler ABI info
+[5.825s] -- Detecting CXX compiler ABI info - done
+[5.937s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[5.940s] -- Detecting CXX compile features
+[5.948s] -- Detecting CXX compile features - done
+[5.990s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[7.904s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[9.290s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[9.708s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[9.760s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[9.858s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[9.995s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[10.185s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[10.821s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[10.861s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[11.644s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[11.850s] -- Found FastRTPS: /opt/ros/humble/include  
+[12.160s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[12.254s] -- Looking for pthread.h
+[12.784s] -- Looking for pthread.h - found
+[12.786s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[13.333s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[13.341s] -- Found Threads: TRUE  
+[13.800s] -- Found rclcpp_components: 16.0.12 (/opt/ros/humble/share/rclcpp_components/cmake)
+[14.157s] -- Found rtcm_msgs: 1.1.6 (/home/dev/ORobotics/localization_ws/install/rtcm_msgs/share/rtcm_msgs/cmake)
+[14.304s] -- Found libcurl_vendor: 3.1.3 (/opt/ros/humble/share/libcurl_vendor/cmake)
+[14.891s] -- library: /usr/lib/aarch64-linux-gnu/libcurl.so
+[14.937s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[16.074s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[16.075s] -- Configured cppcheck include dirs: /home/dev/ORobotics/localization_ws/src/ublox_dgnss/ntrip_client_node/include
+[16.076s] -- Configured cppcheck exclude dirs and/or files: 
+[16.083s] -- Added test 'lint_cmake' to check CMake code style
+[16.097s] -- Added test 'uncrustify' to check C / C++ code style
+[16.098s] -- Configured uncrustify additional arguments: 
+[16.101s] -- Added test 'xmllint' to check XML markup files
+[16.107s] -- Added test 'copyright' to check source files copyright and LICENSE
+[16.118s] -- Configuring done
+[16.316s] -- Generating done
+[16.373s] -- Build files have been written to: /home/dev/ORobotics/localization_ws/build/ntrip_client_node
+[16.440s] Invoked command in '/home/dev/ORobotics/localization_ws/build/ntrip_client_node' returned '0': AMENT_PREFIX_PATH=/home/dev/ORobotics/localization_ws/install/rtcm_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dev/ORobotics/localization_ws/install/rtcm_msgs:/home/dev/ORobotics/localization_ws/install/bag_recorder:/opt/ros/humble LD_LIBRARY_PATH=/home/dev/ORobotics/localization_ws/install/rtcm_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dev/ORobotics/localization_ws/install/rtcm_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/dev/ORobotics/localization_ws/src/ublox_dgnss/ntrip_client_node -DCMAKE_INSTALL_PREFIX=/home/dev/ORobotics/localization_ws/install/ntrip_client_node
+[16.442s] Invoking command in '/home/dev/ORobotics/localization_ws/build/ntrip_client_node': AMENT_PREFIX_PATH=/home/dev/ORobotics/localization_ws/install/rtcm_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dev/ORobotics/localization_ws/install/rtcm_msgs:/home/dev/ORobotics/localization_ws/install/bag_recorder:/opt/ros/humble LD_LIBRARY_PATH=/home/dev/ORobotics/localization_ws/install/rtcm_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dev/ORobotics/localization_ws/install/rtcm_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/dev/ORobotics/localization_ws/build/ntrip_client_node -- -j4 -l4
+[16.871s] [ 25%] [32mBuilding CXX object CMakeFiles/ntrip_client_node.dir/rclcpp_components/node_main_ntrip_client_node.cpp.o[0m
+[16.939s] [ 50%] [32mBuilding CXX object CMakeFiles/ntrip_client_components.dir/src/ntrip_client_node.cpp.o[0m
+[82.476s] [ 75%] [32m[1mLinking CXX executable ntrip_client_node[0m
+[86.066s] [ 75%] Built target ntrip_client_node
+[106.934s] [100%] [32m[1mLinking CXX shared library libntrip_client_components.so[0m
+[111.075s] [100%] Built target ntrip_client_components
+[111.241s] Invoked command in '/home/dev/ORobotics/localization_ws/build/ntrip_client_node' returned '0': AMENT_PREFIX_PATH=/home/dev/ORobotics/localization_ws/install/rtcm_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dev/ORobotics/localization_ws/install/rtcm_msgs:/home/dev/ORobotics/localization_ws/install/bag_recorder:/opt/ros/humble LD_LIBRARY_PATH=/home/dev/ORobotics/localization_ws/install/rtcm_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dev/ORobotics/localization_ws/install/rtcm_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/dev/ORobotics/localization_ws/build/ntrip_client_node -- -j4 -l4
+[111.475s] Invoking command in '/home/dev/ORobotics/localization_ws/build/ntrip_client_node': AMENT_PREFIX_PATH=/home/dev/ORobotics/localization_ws/install/rtcm_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dev/ORobotics/localization_ws/install/rtcm_msgs:/home/dev/ORobotics/localization_ws/install/bag_recorder:/opt/ros/humble LD_LIBRARY_PATH=/home/dev/ORobotics/localization_ws/install/rtcm_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dev/ORobotics/localization_ws/install/rtcm_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/dev/ORobotics/localization_ws/build/ntrip_client_node
+[111.585s] -- Install configuration: ""
+[111.602s] -- Installing: /home/dev/ORobotics/localization_ws/install/ntrip_client_node/lib/ntrip_client_node/ntrip_client_node
+[111.684s] -- Set runtime path of "/home/dev/ORobotics/localization_ws/install/ntrip_client_node/lib/ntrip_client_node/ntrip_client_node" to ""
+[111.688s] -- Installing: /home/dev/ORobotics/localization_ws/install/ntrip_client_node/lib/libntrip_client_components.so
+[111.782s] -- Set runtime path of "/home/dev/ORobotics/localization_ws/install/ntrip_client_node/lib/libntrip_client_components.so" to ""
+[111.787s] -- Installing: /home/dev/ORobotics/localization_ws/install/ntrip_client_node/share/ament_index/resource_index/package_run_dependencies/ntrip_client_node
+[111.794s] -- Installing: /home/dev/ORobotics/localization_ws/install/ntrip_client_node/share/ament_index/resource_index/parent_prefix_path/ntrip_client_node
+[111.802s] -- Installing: /home/dev/ORobotics/localization_ws/install/ntrip_client_node/share/ntrip_client_node/environment/ament_prefix_path.sh
+[111.815s] -- Installing: /home/dev/ORobotics/localization_ws/install/ntrip_client_node/share/ntrip_client_node/environment/ament_prefix_path.dsv
+[111.825s] -- Installing: /home/dev/ORobotics/localization_ws/install/ntrip_client_node/share/ntrip_client_node/environment/path.sh
+[111.832s] -- Installing: /home/dev/ORobotics/localization_ws/install/ntrip_client_node/share/ntrip_client_node/environment/path.dsv
+[111.837s] -- Installing: /home/dev/ORobotics/localization_ws/install/ntrip_client_node/share/ntrip_client_node/local_setup.bash
+[111.845s] -- Installing: /home/dev/ORobotics/localization_ws/install/ntrip_client_node/share/ntrip_client_node/local_setup.sh
+[111.851s] -- Installing: /home/dev/ORobotics/localization_ws/install/ntrip_client_node/share/ntrip_client_node/local_setup.zsh
+[111.860s] -- Installing: /home/dev/ORobotics/localization_ws/install/ntrip_client_node/share/ntrip_client_node/local_setup.dsv
+[111.866s] -- Installing: /home/dev/ORobotics/localization_ws/install/ntrip_client_node/share/ntrip_client_node/package.dsv
+[111.882s] -- Installing: /home/dev/ORobotics/localization_ws/install/ntrip_client_node/share/ament_index/resource_index/packages/ntrip_client_node
+[111.896s] -- Installing: /home/dev/ORobotics/localization_ws/install/ntrip_client_node/share/ament_index/resource_index/rclcpp_components/ntrip_client_node
+[111.908s] -- Installing: /home/dev/ORobotics/localization_ws/install/ntrip_client_node/share/ntrip_client_node/cmake/ntrip_client_nodeConfig.cmake
+[111.974s] -- Installing: /home/dev/ORobotics/localization_ws/install/ntrip_client_node/share/ntrip_client_node/cmake/ntrip_client_nodeConfig-version.cmake
+[111.992s] -- Installing: /home/dev/ORobotics/localization_ws/install/ntrip_client_node/share/ntrip_client_node/package.xml
+[112.030s] Invoked command in '/home/dev/ORobotics/localization_ws/build/ntrip_client_node' returned '0': AMENT_PREFIX_PATH=/home/dev/ORobotics/localization_ws/install/rtcm_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dev/ORobotics/localization_ws/install/rtcm_msgs:/home/dev/ORobotics/localization_ws/install/bag_recorder:/opt/ros/humble LD_LIBRARY_PATH=/home/dev/ORobotics/localization_ws/install/rtcm_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dev/ORobotics/localization_ws/install/rtcm_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/dev/ORobotics/localization_ws/build/ntrip_client_node

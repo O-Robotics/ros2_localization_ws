@@ -1,0 +1,37 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ublox_ubx_msgs/msg/UBXNavOdo.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module ublox_ubx_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "this message contains a UBX-NAV-ODO (0x01 0x09) record Odometer solution")
+    struct UBXNavOdo {
+      @verbatim (language="comment", text=
+        "Header timestamp should be acquisition time")
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "message version")
+      uint8 version;
+
+      @verbatim (language="comment", text=
+        "ms - GPS Time of week of the navigation epoch")
+      uint32 itow;
+
+      @verbatim (language="comment", text=
+        "m - ground distance since last reset")
+      uint32 distance;
+
+      @verbatim (language="comment", text=
+        "m - total comulative ground distance (since last cold start)")
+      uint32 total_distance;
+
+      @verbatim (language="comment", text=
+        "m - ground distance accuracy (1-sigma)")
+      uint32 distance_std;
+    };
+  };
+};

@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/imu_offset_calibration/imu_offset_calibration.egg-info/PKG-INFO
+../../build/imu_offset_calibration/imu_offset_calibration.egg-info/SOURCES.txt
+../../build/imu_offset_calibration/imu_offset_calibration.egg-info/dependency_links.txt
+../../build/imu_offset_calibration/imu_offset_calibration.egg-info/entry_points.txt
+../../build/imu_offset_calibration/imu_offset_calibration.egg-info/requires.txt
+../../build/imu_offset_calibration/imu_offset_calibration.egg-info/top_level.txt
+../../build/imu_offset_calibration/imu_offset_calibration.egg-info/zip-safe
+imu_offset_calibration/__init__.py
+imu_offset_calibration/imu_pitch_reader.py
+resource/imu_offset_calibration
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

@@ -1,0 +1,433 @@
+# generated from rosidl_generator_py/resource/_idl.py.em
+# with input from ublox_ubx_msgs:msg/UBXNavHPPosECEF.idl
+# generated code does not contain a copyright notice
+
+
+# Import statements for member types
+
+import builtins  # noqa: E402, I100
+
+import rosidl_parser.definition  # noqa: E402, I100
+
+
+class Metaclass_UBXNavHPPosECEF(type):
+    """Metaclass of message 'UBXNavHPPosECEF'."""
+
+    _CREATE_ROS_MESSAGE = None
+    _CONVERT_FROM_PY = None
+    _CONVERT_TO_PY = None
+    _DESTROY_ROS_MESSAGE = None
+    _TYPE_SUPPORT = None
+
+    __constants = {
+    }
+
+    @classmethod
+    def __import_type_support__(cls):
+        try:
+            from rosidl_generator_py import import_type_support
+            module = import_type_support('ublox_ubx_msgs')
+        except ImportError:
+            import logging
+            import traceback
+            logger = logging.getLogger(
+                'ublox_ubx_msgs.msg.UBXNavHPPosECEF')
+            logger.debug(
+                'Failed to import needed modules for type support:\n' +
+                traceback.format_exc())
+        else:
+            cls._CREATE_ROS_MESSAGE = module.create_ros_message_msg__msg__ubx_nav_hp_pos_ecef
+            cls._CONVERT_FROM_PY = module.convert_from_py_msg__msg__ubx_nav_hp_pos_ecef
+            cls._CONVERT_TO_PY = module.convert_to_py_msg__msg__ubx_nav_hp_pos_ecef
+            cls._TYPE_SUPPORT = module.type_support_msg__msg__ubx_nav_hp_pos_ecef
+            cls._DESTROY_ROS_MESSAGE = module.destroy_ros_message_msg__msg__ubx_nav_hp_pos_ecef
+
+            from std_msgs.msg import Header
+            if Header.__class__._TYPE_SUPPORT is None:
+                Header.__class__.__import_type_support__()
+
+    @classmethod
+    def __prepare__(cls, name, bases, **kwargs):
+        # list constant names here so that they appear in the help text of
+        # the message class under "Data and other attributes defined here:"
+        # as well as populate each message instance
+        return {
+        }
+
+
+class UBXNavHPPosECEF(metaclass=Metaclass_UBXNavHPPosECEF):
+    """Message class 'UBXNavHPPosECEF'."""
+
+    __slots__ = [
+        '_header',
+        '_version',
+        '_itow',
+        '_ecef_x',
+        '_ecef_y',
+        '_ecef_z',
+        '_ecef_x_hp',
+        '_ecef_y_hp',
+        '_ecef_z_hp',
+        '_invalid_ecef_x',
+        '_invalid_ecef_y',
+        '_invalid_ecef_z',
+        '_invalid_ecef_x_hp',
+        '_invalid_ecef_y_hp',
+        '_invalid_ecef_z_hp',
+        '_p_acc',
+    ]
+
+    _fields_and_field_types = {
+        'header': 'std_msgs/Header',
+        'version': 'uint8',
+        'itow': 'uint32',
+        'ecef_x': 'int32',
+        'ecef_y': 'int32',
+        'ecef_z': 'int32',
+        'ecef_x_hp': 'int8',
+        'ecef_y_hp': 'int8',
+        'ecef_z_hp': 'int8',
+        'invalid_ecef_x': 'boolean',
+        'invalid_ecef_y': 'boolean',
+        'invalid_ecef_z': 'boolean',
+        'invalid_ecef_x_hp': 'boolean',
+        'invalid_ecef_y_hp': 'boolean',
+        'invalid_ecef_z_hp': 'boolean',
+        'p_acc': 'uint32',
+    }
+
+    SLOT_TYPES = (
+        rosidl_parser.definition.NamespacedType(['std_msgs', 'msg'], 'Header'),  # noqa: E501
+        rosidl_parser.definition.BasicType('uint8'),  # noqa: E501
+        rosidl_parser.definition.BasicType('uint32'),  # noqa: E501
+        rosidl_parser.definition.BasicType('int32'),  # noqa: E501
+        rosidl_parser.definition.BasicType('int32'),  # noqa: E501
+        rosidl_parser.definition.BasicType('int32'),  # noqa: E501
+        rosidl_parser.definition.BasicType('int8'),  # noqa: E501
+        rosidl_parser.definition.BasicType('int8'),  # noqa: E501
+        rosidl_parser.definition.BasicType('int8'),  # noqa: E501
+        rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
+        rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
+        rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
+        rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
+        rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
+        rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
+        rosidl_parser.definition.BasicType('uint32'),  # noqa: E501
+    )
+
+    def __init__(self, **kwargs):
+        assert all('_' + key in self.__slots__ for key in kwargs.keys()), \
+            'Invalid arguments passed to constructor: %s' % \
+            ', '.join(sorted(k for k in kwargs.keys() if '_' + k not in self.__slots__))
+        from std_msgs.msg import Header
+        self.header = kwargs.get('header', Header())
+        self.version = kwargs.get('version', int())
+        self.itow = kwargs.get('itow', int())
+        self.ecef_x = kwargs.get('ecef_x', int())
+        self.ecef_y = kwargs.get('ecef_y', int())
+        self.ecef_z = kwargs.get('ecef_z', int())
+        self.ecef_x_hp = kwargs.get('ecef_x_hp', int())
+        self.ecef_y_hp = kwargs.get('ecef_y_hp', int())
+        self.ecef_z_hp = kwargs.get('ecef_z_hp', int())
+        self.invalid_ecef_x = kwargs.get('invalid_ecef_x', bool())
+        self.invalid_ecef_y = kwargs.get('invalid_ecef_y', bool())
+        self.invalid_ecef_z = kwargs.get('invalid_ecef_z', bool())
+        self.invalid_ecef_x_hp = kwargs.get('invalid_ecef_x_hp', bool())
+        self.invalid_ecef_y_hp = kwargs.get('invalid_ecef_y_hp', bool())
+        self.invalid_ecef_z_hp = kwargs.get('invalid_ecef_z_hp', bool())
+        self.p_acc = kwargs.get('p_acc', int())
+
+    def __repr__(self):
+        typename = self.__class__.__module__.split('.')
+        typename.pop()
+        typename.append(self.__class__.__name__)
+        args = []
+        for s, t in zip(self.__slots__, self.SLOT_TYPES):
+            field = getattr(self, s)
+            fieldstr = repr(field)
+            # We use Python array type for fields that can be directly stored
+            # in them, and "normal" sequences for everything else.  If it is
+            # a type that we store in an array, strip off the 'array' portion.
+            if (
+                isinstance(t, rosidl_parser.definition.AbstractSequence) and
+                isinstance(t.value_type, rosidl_parser.definition.BasicType) and
+                t.value_type.typename in ['float', 'double', 'int8', 'uint8', 'int16', 'uint16', 'int32', 'uint32', 'int64', 'uint64']
+            ):
+                if len(field) == 0:
+                    fieldstr = '[]'
+                else:
+                    assert fieldstr.startswith('array(')
+                    prefix = "array('X', "
+                    suffix = ')'
+                    fieldstr = fieldstr[len(prefix):-len(suffix)]
+            args.append(s[1:] + '=' + fieldstr)
+        return '%s(%s)' % ('.'.join(typename), ', '.join(args))
+
+    def __eq__(self, other):
+        if not isinstance(other, self.__class__):
+            return False
+        if self.header != other.header:
+            return False
+        if self.version != other.version:
+            return False
+        if self.itow != other.itow:
+            return False
+        if self.ecef_x != other.ecef_x:
+            return False
+        if self.ecef_y != other.ecef_y:
+            return False
+        if self.ecef_z != other.ecef_z:
+            return False
+        if self.ecef_x_hp != other.ecef_x_hp:
+            return False
+        if self.ecef_y_hp != other.ecef_y_hp:
+            return False
+        if self.ecef_z_hp != other.ecef_z_hp:
+            return False
+        if self.invalid_ecef_x != other.invalid_ecef_x:
+            return False
+        if self.invalid_ecef_y != other.invalid_ecef_y:
+            return False
+        if self.invalid_ecef_z != other.invalid_ecef_z:
+            return False
+        if self.invalid_ecef_x_hp != other.invalid_ecef_x_hp:
+            return False
+        if self.invalid_ecef_y_hp != other.invalid_ecef_y_hp:
+            return False
+        if self.invalid_ecef_z_hp != other.invalid_ecef_z_hp:
+            return False
+        if self.p_acc != other.p_acc:
+            return False
+        return True
+
+    @classmethod
+    def get_fields_and_field_types(cls):
+        from copy import copy
+        return copy(cls._fields_and_field_types)
+
+    @builtins.property
+    def header(self):
+        """Message field 'header'."""
+        return self._header
+
+    @header.setter
+    def header(self, value):
+        if __debug__:
+            from std_msgs.msg import Header
+            assert \
+                isinstance(value, Header), \
+                "The 'header' field must be a sub message of type 'Header'"
+        self._header = value
+
+    @builtins.property
+    def version(self):
+        """Message field 'version'."""
+        return self._version
+
+    @version.setter
+    def version(self, value):
+        if __debug__:
+            assert \
+                isinstance(value, int), \
+                "The 'version' field must be of type 'int'"
+            assert value >= 0 and value < 256, \
+                "The 'version' field must be an unsigned integer in [0, 255]"
+        self._version = value
+
+    @builtins.property
+    def itow(self):
+        """Message field 'itow'."""
+        return self._itow
+
+    @itow.setter
+    def itow(self, value):
+        if __debug__:
+            assert \
+                isinstance(value, int), \
+                "The 'itow' field must be of type 'int'"
+            assert value >= 0 and value < 4294967296, \
+                "The 'itow' field must be an unsigned integer in [0, 4294967295]"
+        self._itow = value
+
+    @builtins.property
+    def ecef_x(self):
+        """Message field 'ecef_x'."""
+        return self._ecef_x
+
+    @ecef_x.setter
+    def ecef_x(self, value):
+        if __debug__:
+            assert \
+                isinstance(value, int), \
+                "The 'ecef_x' field must be of type 'int'"
+            assert value >= -2147483648 and value < 2147483648, \
+                "The 'ecef_x' field must be an integer in [-2147483648, 2147483647]"
+        self._ecef_x = value
+
+    @builtins.property
+    def ecef_y(self):
+        """Message field 'ecef_y'."""
+        return self._ecef_y
+
+    @ecef_y.setter
+    def ecef_y(self, value):
+        if __debug__:
+            assert \
+                isinstance(value, int), \
+                "The 'ecef_y' field must be of type 'int'"
+            assert value >= -2147483648 and value < 2147483648, \
+                "The 'ecef_y' field must be an integer in [-2147483648, 2147483647]"
+        self._ecef_y = value
+
+    @builtins.property
+    def ecef_z(self):
+        """Message field 'ecef_z'."""
+        return self._ecef_z
+
+    @ecef_z.setter
+    def ecef_z(self, value):
+        if __debug__:
+            assert \
+                isinstance(value, int), \
+                "The 'ecef_z' field must be of type 'int'"
+            assert value >= -2147483648 and value < 2147483648, \
+                "The 'ecef_z' field must be an integer in [-2147483648, 2147483647]"
+        self._ecef_z = value
+
+    @builtins.property
+    def ecef_x_hp(self):
+        """Message field 'ecef_x_hp'."""
+        return self._ecef_x_hp
+
+    @ecef_x_hp.setter
+    def ecef_x_hp(self, value):
+        if __debug__:
+            assert \
+                isinstance(value, int), \
+                "The 'ecef_x_hp' field must be of type 'int'"
+            assert value >= -128 and value < 128, \
+                "The 'ecef_x_hp' field must be an integer in [-128, 127]"
+        self._ecef_x_hp = value
+
+    @builtins.property
+    def ecef_y_hp(self):
+        """Message field 'ecef_y_hp'."""
+        return self._ecef_y_hp
+
+    @ecef_y_hp.setter
+    def ecef_y_hp(self, value):
+        if __debug__:
+            assert \
+                isinstance(value, int), \
+                "The 'ecef_y_hp' field must be of type 'int'"
+            assert value >= -128 and value < 128, \
+                "The 'ecef_y_hp' field must be an integer in [-128, 127]"
+        self._ecef_y_hp = value
+
+    @builtins.property
+    def ecef_z_hp(self):
+        """Message field 'ecef_z_hp'."""
+        return self._ecef_z_hp
+
+    @ecef_z_hp.setter
+    def ecef_z_hp(self, value):
+        if __debug__:
+            assert \
+                isinstance(value, int), \
+                "The 'ecef_z_hp' field must be of type 'int'"
+            assert value >= -128 and value < 128, \
+                "The 'ecef_z_hp' field must be an integer in [-128, 127]"
+        self._ecef_z_hp = value
+
+    @builtins.property
+    def invalid_ecef_x(self):
+        """Message field 'invalid_ecef_x'."""
+        return self._invalid_ecef_x
+
+    @invalid_ecef_x.setter
+    def invalid_ecef_x(self, value):
+        if __debug__:
+            assert \
+                isinstance(value, bool), \
+                "The 'invalid_ecef_x' field must be of type 'bool'"
+        self._invalid_ecef_x = value
+
+    @builtins.property
+    def invalid_ecef_y(self):
+        """Message field 'invalid_ecef_y'."""
+        return self._invalid_ecef_y
+
+    @invalid_ecef_y.setter
+    def invalid_ecef_y(self, value):
+        if __debug__:
+            assert \
+                isinstance(value, bool), \
+                "The 'invalid_ecef_y' field must be of type 'bool'"
+        self._invalid_ecef_y = value
+
+    @builtins.property
+    def invalid_ecef_z(self):
+        """Message field 'invalid_ecef_z'."""
+        return self._invalid_ecef_z
+
+    @invalid_ecef_z.setter
+    def invalid_ecef_z(self, value):
+        if __debug__:
+            assert \
+                isinstance(value, bool), \
+                "The 'invalid_ecef_z' field must be of type 'bool'"
+        self._invalid_ecef_z = value
+
+    @builtins.property
+    def invalid_ecef_x_hp(self):
+        """Message field 'invalid_ecef_x_hp'."""
+        return self._invalid_ecef_x_hp
+
+    @invalid_ecef_x_hp.setter
+    def invalid_ecef_x_hp(self, value):
+        if __debug__:
+            assert \
+                isinstance(value, bool), \
+                "The 'invalid_ecef_x_hp' field must be of type 'bool'"
+        self._invalid_ecef_x_hp = value
+
+    @builtins.property
+    def invalid_ecef_y_hp(self):
+        """Message field 'invalid_ecef_y_hp'."""
+        return self._invalid_ecef_y_hp
+
+    @invalid_ecef_y_hp.setter
+    def invalid_ecef_y_hp(self, value):
+        if __debug__:
+            assert \
+                isinstance(value, bool), \
+                "The 'invalid_ecef_y_hp' field must be of type 'bool'"
+        self._invalid_ecef_y_hp = value
+
+    @builtins.property
+    def invalid_ecef_z_hp(self):
+        """Message field 'invalid_ecef_z_hp'."""
+        return self._invalid_ecef_z_hp
+
+    @invalid_ecef_z_hp.setter
+    def invalid_ecef_z_hp(self, value):
+        if __debug__:
+            assert \
+                isinstance(value, bool), \
+                "The 'invalid_ecef_z_hp' field must be of type 'bool'"
+        self._invalid_ecef_z_hp = value
+
+    @builtins.property
+    def p_acc(self):
+        """Message field 'p_acc'."""
+        return self._p_acc
+
+    @p_acc.setter
+    def p_acc(self, value):
+        if __debug__:
+            assert \
+                isinstance(value, int), \
+                "The 'p_acc' field must be of type 'int'"
+            assert value >= 0 and value < 4294967296, \
+                "The 'p_acc' field must be an unsigned integer in [0, 4294967295]"
+        self._p_acc = value

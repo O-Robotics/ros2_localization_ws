@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from ublox_ubx_interfaces/srv/ColdStart.srv
+// generated code does not contain a copyright notice
+
+
+module ublox_ubx_interfaces {
+  module srv {
+    module ColdStart_Request_Constants {
+      const uint8 HW_RESET_IMMEDIATELY = 0;
+      const uint8 SW_RESET_CONTROLLED = 1;
+      const uint8 SW_RESET_CONTROLLED_GNSS = 2;
+      const uint8 HW_RESET_AFTER_SHUTDOWN = 4;
+      const uint8 GNSS_STOP_CONTROLLED = 8;
+      const uint8 GNSS_START_CONTROLLED = 9;
+    };
+    struct ColdStart_Request {
+      uint8 reset_type;
+    };
+    struct ColdStart_Response {
+      uint8 structure_needs_at_least_one_member;
+    };
+  };
+};

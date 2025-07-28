@@ -1,0 +1,62 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ublox_ubx_msgs/msg/ESFSensorStatus.msg
+// generated code does not contain a copyright notice
+
+
+module ublox_ubx_msgs {
+  module msg {
+    module ESFSensorStatus_Constants {
+      const uint8 CALIB_STATUS_NOT_CALIBRATED = 0;
+      const uint8 CALIB_STATUS_CALIBRATING = 1;
+      const uint8 CALIB_STATUS_CALIBRATED0 = 2;
+      const uint8 CALIB_STATUS_CALIBRATED1 = 3;
+      const uint8 TIME_STATUS_NO_DATA = 0;
+      const uint8 TIME_STATUS_FIRST_BYTE_USED = 1;
+      const uint8 TIME_STATUS_TTAG_PROVIDED = 3;
+    };
+    struct ESFSensorStatus {
+      @verbatim (language="comment", text=
+        "see sensor data type in the integration manual")
+      uint8 sensor_data_type;
+
+      @verbatim (language="comment", text=
+        "if set, sensor data is used for the current fusion solution")
+      boolean used;
+
+      @verbatim (language="comment", text=
+        "if set, sensor is set up but not used for sensor fusion")
+      boolean ready;
+
+      @verbatim (language="comment", text=
+        "0x00: sensor not calibrated 0x01: sensor is calibrating," "\n"
+        "0x10/0x11 sensor is calibrated. Good dead recking only possible" "\n"
+        "when all used sensors are calibrated")
+      uint8 calib_status;
+
+      @verbatim (language="comment", text=
+        "0x00: No Data, 0x01: Reception of the first byte used to tag measurement" "\n"
+        "0x11: Time tag provided with the data")
+      uint8 time_status;
+
+      @verbatim (language="comment", text=
+        "observation frequency")
+      uint8 freq;
+
+      @verbatim (language="comment", text=
+        "bad measurements detected")
+      boolean fault_bad_meas;
+
+      @verbatim (language="comment", text=
+        "bad measurement time-tages detected")
+      boolean fault_bad_ttag;
+
+      @verbatim (language="comment", text=
+        "Missing or time-misaligned measurements detected")
+      boolean fault_missing_meas;
+
+      @verbatim (language="comment", text=
+        "high measurement noise-level detected")
+      boolean fault_noisy_meas;
+    };
+  };
+};

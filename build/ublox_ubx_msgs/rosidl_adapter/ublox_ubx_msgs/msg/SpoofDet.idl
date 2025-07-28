@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ublox_ubx_msgs/msg/SpoofDet.msg
+// generated code does not contain a copyright notice
+
+
+module ublox_ubx_msgs {
+  module msg {
+    module SpoofDet_Constants {
+      const uint8 SPOOF_DET_UNKNOWN = 0;
+      const uint8 SPOOF_DET_NO_SPOOFING = 1;
+      const uint8 SPOOF_DET_SPOOFING = 2;
+      const uint8 SPOOF_DET_MULTIPLE_SPOOFING = 3;
+    };
+    struct SpoofDet {
+      @verbatim (language="comment", text=
+        "spoofing det state")
+      uint8 state;
+    };
+  };
+};

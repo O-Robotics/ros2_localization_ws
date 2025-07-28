@@ -1,0 +1,66 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ublox_ubx_msgs/msg/UBXNavHPPosECEF.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module ublox_ubx_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "this message contains a UBX-NAV-HPPOSECEF (0x01 0x13) record ")
+    struct UBXNavHPPosECEF {
+      @verbatim (language="comment", text=
+        "Header timestamp should be acquisition time")
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "message version")
+      uint8 version;
+
+      @verbatim (language="comment", text=
+        "ms - GPS Time of week of the navigation epoch")
+      uint32 itow;
+
+      @verbatim (language="comment", text=
+        "cm - ECEF X coordinate")
+      int32 ecef_x;
+
+      @verbatim (language="comment", text=
+        "cm - ECEF Y coordinate")
+      int32 ecef_y;
+
+      @verbatim (language="comment", text=
+        "cm - ECEF Z coordinate")
+      int32 ecef_z;
+
+      @verbatim (language="comment", text=
+        "HPs must be in the range of -99..+99. Precise coordinate in cm = ecef_? + (ecef_?_hp * 1e-2)" "\n"
+        "mm scale 0.1 - high precision ECEF X coordinate")
+      int8 ecef_x_hp;
+
+      @verbatim (language="comment", text=
+        "mm scale 0.1 - high precision ECEF Y coordinate")
+      int8 ecef_y_hp;
+
+      @verbatim (language="comment", text=
+        "mm scale 0.1 - high precision ECEF Z coordinate")
+      int8 ecef_z_hp;
+
+      boolean invalid_ecef_x;
+
+      boolean invalid_ecef_y;
+
+      boolean invalid_ecef_z;
+
+      boolean invalid_ecef_x_hp;
+
+      boolean invalid_ecef_y_hp;
+
+      boolean invalid_ecef_z_hp;
+
+      @verbatim (language="comment", text=
+        "mm scale 0.1 - position accuracy estimate")
+      uint32 p_acc;
+    };
+  };
+};

@@ -1,0 +1,16 @@
+srv/ColdStart.idl
+srv/ColdStart.srv
+srv/ColdStart_Request.msg
+srv/ColdStart_Response.msg
+srv/HotStart.idl
+srv/HotStart.srv
+srv/HotStart_Request.msg
+srv/HotStart_Response.msg
+srv/ResetODO.idl
+srv/ResetODO.srv
+srv/ResetODO_Request.msg
+srv/ResetODO_Response.msg
+srv/WarmStart.idl
+srv/WarmStart.srv
+srv/WarmStart_Request.msg
+srv/WarmStart_Response.msg

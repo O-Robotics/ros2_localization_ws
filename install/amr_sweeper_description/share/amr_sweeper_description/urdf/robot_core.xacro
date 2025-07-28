@@ -1,0 +1,202 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+
+    <link name="base_link">
+    </link>
+
+    <joint name="base_footprint_joint" type="fixed">
+        <parent link="base_link" />
+        <child  link="base_footprint" />
+        <origin xyz="0 0 -0.13" rpy="0 0 0"/>
+    </joint>
+
+    <link name="base_footprint">
+    </link>
+
+
+    <joint name="Chassis_joint" type="fixed">
+        <parent link="base_link" />
+        <child  link="Chassis_link" />
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+    </joint>
+
+    <link name="Chassis_link">
+        <visual>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <geometry>           
+                <mesh   filename="package://AMR-Sweeper_description/meshes/Chassis/Chassis.stl" />  
+            </geometry>   
+            <material name="grey"/>     
+        </visual>
+<!--
+        <collision>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <geometry>           
+                <mesh   filename="package://AMR-Sweeper_description/meshes/Chassis/Chassis.stl" />  
+            </geometry>     
+        </collision>
+-->
+        <inertial>
+            <origin xyz="0.054 0 0.110" rpy="0 0 0"/>
+            <mass value="15.4" />
+            <inertia ixx="0.2" ixy="0.002" ixz="-0.010" iyy="0.376" iyz="0.000" izz="0.508" />
+        </inertial>
+    </link>
+
+
+
+
+    <joint name="LeftWheel_joint" type="continuous">
+        <parent link="base_link" />
+        <child  link="LeftWheel_link" />
+        <origin xyz="0 0.244 0" rpy="-${pi/2} 0 0" />
+        <axis   xyz="0 0 1" />
+    </joint>
+
+    <link name="LeftWheel_link">
+        <visual>
+            <origin xyz="0 0 0" rpy="${pi/2} 0 0"/>
+            <geometry>
+                <mesh   filename="package://AMR-Sweeper_description/meshes/WheelAssembly/WheelAssembly.stl" />  
+            </geometry>
+            <material name="yellow"/>       
+        </visual>
+
+        <collision>
+            <origin xyz="0 0 0" rpy="${pi/2} 0 0"/>
+            <geometry>
+                <mesh   filename="package://AMR-Sweeper_description/meshes/WheelAssembly/WheelAssembly.stl" />
+            </geometry>       
+        </collision>
+
+        <inertial>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <mass value="1.5" />
+            <inertia ixx="0.01" ixy="0" ixz="0" iyy="0.02" iyz="0" izz="0.01" />
+        </inertial>
+    </link>
+
+
+
+
+    <joint name="RightWheel_joint" type="continuous">
+        <parent link="base_link" />
+        <child  link="RightWheel_link" />
+        <origin xyz="0 -0.244 0" rpy="${pi/2} 0 0" />
+        <axis   xyz="0 0 -1" />
+    </joint>
+
+    <link name="RightWheel_link">
+        <visual>
+            <origin xyz="0 0 0" rpy="${pi/2} 0 0"/>
+            <geometry>
+                <mesh   filename="package://AMR-Sweeper_description/meshes/WheelAssembly/WheelAssembly.stl" />  
+            </geometry>
+            <material name="yellow"/>       
+        </visual>
+
+        <collision>
+            <origin xyz="0 0 0" rpy="${pi/2} 0 0"/>
+            <geometry>
+                <mesh   filename="package://AMR-Sweeper_description/meshes/WheelAssembly/WheelAssembly.stl" />
+            </geometry>       
+        </collision>
+
+        <inertial>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <mass value="1.5" />
+            <inertia ixx="0.01" ixy="0" ixz="0" iyy="0.02" iyz="0" izz="0.01" />
+        </inertial>
+    </link>
+
+
+
+
+    <joint name="Tool_joint" type="fixed">
+        <origin xyz="0.33 0 0.075" rpy="0 0 0" />
+        <parent link="base_link" />
+        <child  link="Tool_link" />
+        <axis   xyz="1 0 0" />
+        <!--<limit  lower="-${pi/18}" upper="${pi/18}" velocity="100" effort="100"/>  -->
+    </joint>
+
+    <link name="Tool_link">
+        <visual>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <geometry>
+                <mesh   filename="package://AMR-Sweeper_description/meshes/Tool/Tool.stl" />  
+            </geometry>
+            <material name="black"/>       
+        </visual>
+
+        <inertial>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <mass value="2.5" />
+            <inertia ixx="0.01" ixy="0" ixz="0" iyy="0.02" iyz="0" izz="0.01" />
+        </inertial>
+    </link>
+
+
+
+    <joint name="LeftBrush_joint" type="fixed">
+        <origin xyz="0 -0.155 -0.073" rpy="0 0 0" />
+        <parent link="Tool_link" />
+        <child  link="LeftBrush_link" />
+    </joint>
+
+    <link name="LeftBrush_link">
+        <visual>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <geometry>
+                <mesh   filename="package://AMR-Sweeper_description/meshes/Tool/Brush.stl" />  
+            </geometry>
+            <material name="red"/>       
+        </visual>
+
+        <collision>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <geometry>
+                <mesh   filename="package://AMR-Sweeper_description/meshes/Tool/Brush.stl" />  
+            </geometry>       
+        </collision>
+
+        <inertial>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <mass value="1.5" />
+            <inertia ixx="0.01" ixy="0" ixz="0" iyy="0.02" iyz="0" izz="0.01" />
+        </inertial>
+    </link>
+
+
+
+    <joint name="RightBrush_joint" type="fixed">
+        <origin xyz="0 0.155 -0.073" rpy="0 0 0" />
+        <parent link="Tool_link" />
+        <child  link="RightBrush_link" />
+    </joint>
+
+    <link name="RightBrush_link">
+        <visual>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <geometry>
+                <mesh   filename="package://AMR-Sweeper_description/meshes/Tool/Brush.stl" />  
+            </geometry>
+            <material name="red"/>       
+        </visual>
+
+        <collision>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <geometry>
+                <mesh   filename="package://AMR-Sweeper_description/meshes/Tool/Brush.stl" />  
+            </geometry>       
+        </collision>
+
+        <inertial>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <mass value="1.5" />
+            <inertia ixx="0.01" ixy="0" ixz="0" iyy="0.02" iyz="0" izz="0.01" />
+        </inertial>
+    </link>
+
+</robot>

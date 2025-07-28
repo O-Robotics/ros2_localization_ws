@@ -1,0 +1,4 @@
+source;share/ublox_dgnss_node/local_setup.bash
+source;share/ublox_dgnss_node/local_setup.dsv
+source;share/ublox_dgnss_node/local_setup.sh
+source;share/ublox_dgnss_node/local_setup.zsh

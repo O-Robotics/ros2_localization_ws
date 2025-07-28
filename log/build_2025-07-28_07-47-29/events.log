@@ -1,0 +1,110 @@
+[0.000000] (-) TimerEvent: {}
+[0.000924] (-) JobUnselected: {'identifier': 'amr_sweeper_description'}
+[0.001315] (-) JobUnselected: {'identifier': 'gnss_imu_robot_localization'}
+[0.001602] (-) JobUnselected: {'identifier': 'imu_offset_calibration'}
+[0.001822] (-) JobUnselected: {'identifier': 'nav2_costmap_filters_demo'}
+[0.002003] (-) JobUnselected: {'identifier': 'nav2_gps_waypoint_follower_demo'}
+[0.002292] (-) JobUnselected: {'identifier': 'nav2_gradient_costmap_plugin'}
+[0.002520] (-) JobUnselected: {'identifier': 'nav2_pure_pursuit_controller'}
+[0.002753] (-) JobUnselected: {'identifier': 'nav2_sms_behavior'}
+[0.002987] (-) JobUnselected: {'identifier': 'nav2_straightline_planner'}
+[0.003183] (-) JobUnselected: {'identifier': 'ntrip_client_node'}
+[0.003336] (-) JobUnselected: {'identifier': 'rtcm_msgs'}
+[0.003470] (-) JobUnselected: {'identifier': 'sam_bot_description'}
+[0.003597] (-) JobUnselected: {'identifier': 'ublox_dgnss'}
+[0.003733] (-) JobUnselected: {'identifier': 'ublox_dgnss_node'}
+[0.003866] (-) JobUnselected: {'identifier': 'ublox_nav_sat_fix_hp_node'}
+[0.004021] (-) JobUnselected: {'identifier': 'ublox_ubx_interfaces'}
+[0.004182] (-) JobUnselected: {'identifier': 'ublox_ubx_msgs'}
+[0.004356] (-) JobUnselected: {'identifier': 'wit_ros2_imu'}
+[0.004531] (bag_recorder) JobQueued: {'identifier': 'bag_recorder', 'dependencies': OrderedDict()}
+[0.008710] (bag_recorder) JobStarted: {'identifier': 'bag_recorder'}
+[0.091247] (-) TimerEvent: {}
+[0.192509] (-) TimerEvent: {}
+[0.296182] (-) TimerEvent: {}
+[0.397089] (-) TimerEvent: {}
+[0.498561] (-) TimerEvent: {}
+[0.600233] (-) TimerEvent: {}
+[0.701821] (-) TimerEvent: {}
+[0.803374] (-) TimerEvent: {}
+[0.907234] (-) TimerEvent: {}
+[1.008368] (-) TimerEvent: {}
+[1.110905] (-) TimerEvent: {}
+[1.213101] (-) TimerEvent: {}
+[1.314603] (-) TimerEvent: {}
+[1.415470] (-) TimerEvent: {}
+[1.516283] (-) TimerEvent: {}
+[1.617165] (-) TimerEvent: {}
+[1.718110] (-) TimerEvent: {}
+[1.818937] (-) TimerEvent: {}
+[1.919799] (-) TimerEvent: {}
+[2.020781] (-) TimerEvent: {}
+[2.121900] (-) TimerEvent: {}
+[2.222946] (-) TimerEvent: {}
+[2.323838] (-) TimerEvent: {}
+[2.424668] (-) TimerEvent: {}
+[2.525604] (-) TimerEvent: {}
+[2.627290] (-) TimerEvent: {}
+[2.728098] (-) TimerEvent: {}
+[2.828969] (-) TimerEvent: {}
+[2.929996] (-) TimerEvent: {}
+[3.031317] (-) TimerEvent: {}
+[3.132086] (-) TimerEvent: {}
+[3.232900] (-) TimerEvent: {}
+[3.333691] (-) TimerEvent: {}
+[3.434730] (-) TimerEvent: {}
+[3.535963] (-) TimerEvent: {}
+[3.636725] (-) TimerEvent: {}
+[3.737547] (-) TimerEvent: {}
+[3.838535] (-) TimerEvent: {}
+[3.940008] (-) TimerEvent: {}
+[3.981915] (bag_recorder) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/bag_recorder', 'build', '--build-base', '/home/dev/ORobotics/localization_ws/build/bag_recorder/build', 'install', '--record', '/home/dev/ORobotics/localization_ws/build/bag_recorder/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/dev/ORobotics/localization_ws/src/bag_recorder', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'dev', 'SSH_CLIENT': '192.168.2.0 64072 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/dev/.windsurf-server/bin/7ebe3c84f46e15cc83584023b53a4988df13f475/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/dev/.windsurf-server/bin/7ebe3c84f46e15cc83584023b53a4988df13f475/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/dev', 'OLDPWD': '/home/dev/ORobotics/localization_ws/src/bag_recorder/scripts', 'TERM_PROGRAM_VERSION': '1.99.3', 'VSCODE_IPC_HOOK_CLI': '/run/user/1001/vscode-ipc-e29c9ee3-728d-48ab-aae3-e3f334fa59ac.sock', 'ROS_PYTHON_VERSION': '3', 'PAGER': 'cat', 'VSCODE_GIT_ASKPASS_MAIN': '/home/dev/.windsurf-server/bin/7ebe3c84f46e15cc83584023b53a4988df13f475/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/dev/.windsurf-server/bin/7ebe3c84f46e15cc83584023b53a4988df13f475/node', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/dev/.windsurf-server/extensions/ms-python.debugpy-2025.6.0-linux-arm64/bundled/libs/debugpy', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1001/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/dev/ORobotics/localization_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'dev', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '83', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/dev/.windsurf-server/bin/7ebe3c84f46e15cc83584023b53a4988df13f475/bin/remote-cli:/home/dev/.local/bin:/opt/ros/humble/bin:/home/dev/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/dev/.windsurf-server/extensions/ms-python.debugpy-2025.6.0-linux-arm64/bundled/scripts/noConfigScripts', 'XDG_RUNTIME_DIR': '/run/user/1001', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/dev/.windsurf-server/extensions/ms-python.debugpy-2025.6.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-8115f8119c5f2bb4.txt', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1001/vscode-git-c890c40aaa.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/dev/ORobotics/localization_ws/install/bag_recorder:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/dev/ORobotics/localization_ws/build/bag_recorder', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.2.0 64072 192.168.2.1 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/dev/ORobotics/localization_ws/build/bag_recorder/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dev/ORobotics/localization_ws/install/bag_recorder/lib/python3.10/site-packages:/home/dev/ORobotics/localization_ws/install/bag_recorder/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[4.040180] (-) TimerEvent: {}
+[4.141030] (-) TimerEvent: {}
+[4.242000] (-) TimerEvent: {}
+[4.343253] (-) TimerEvent: {}
+[4.444113] (-) TimerEvent: {}
+[4.545046] (-) TimerEvent: {}
+[4.655199] (-) TimerEvent: {}
+[4.756508] (-) TimerEvent: {}
+[4.857974] (-) TimerEvent: {}
+[4.959567] (-) TimerEvent: {}
+[5.061176] (-) TimerEvent: {}
+[5.162173] (-) TimerEvent: {}
+[5.263186] (-) TimerEvent: {}
+[5.364142] (-) TimerEvent: {}
+[5.464911] (-) TimerEvent: {}
+[5.481561] (bag_recorder) StdoutLine: {'line': b'running egg_info\n'}
+[5.485077] (bag_recorder) StdoutLine: {'line': b'writing ../../build/bag_recorder/bag_recorder.egg-info/PKG-INFO\n'}
+[5.486663] (bag_recorder) StdoutLine: {'line': b'writing dependency_links to ../../build/bag_recorder/bag_recorder.egg-info/dependency_links.txt\n'}
+[5.487846] (bag_recorder) StdoutLine: {'line': b'writing entry points to ../../build/bag_recorder/bag_recorder.egg-info/entry_points.txt\n'}
+[5.488916] (bag_recorder) StdoutLine: {'line': b'writing requirements to ../../build/bag_recorder/bag_recorder.egg-info/requires.txt\n'}
+[5.489813] (bag_recorder) StdoutLine: {'line': b'writing top-level names to ../../build/bag_recorder/bag_recorder.egg-info/top_level.txt\n'}
+[5.499787] (bag_recorder) StdoutLine: {'line': b"reading manifest file '../../build/bag_recorder/bag_recorder.egg-info/SOURCES.txt'\n"}
+[5.504632] (bag_recorder) StdoutLine: {'line': b"writing manifest file '../../build/bag_recorder/bag_recorder.egg-info/SOURCES.txt'\n"}
+[5.505697] (bag_recorder) StdoutLine: {'line': b'running build\n'}
+[5.506330] (bag_recorder) StdoutLine: {'line': b'running build_py\n'}
+[5.507355] (bag_recorder) StdoutLine: {'line': b'copying bag_recorder/bag_recorder.py -> /home/dev/ORobotics/localization_ws/build/bag_recorder/build/lib/bag_recorder\n'}
+[5.508907] (bag_recorder) StdoutLine: {'line': b'running install\n'}
+[5.510531] (bag_recorder) StdoutLine: {'line': b'running install_lib\n'}
+[5.514481] (bag_recorder) StdoutLine: {'line': b'copying /home/dev/ORobotics/localization_ws/build/bag_recorder/build/lib/bag_recorder/bag_recorder.py -> /home/dev/ORobotics/localization_ws/install/bag_recorder/lib/python3.10/site-packages/bag_recorder\n'}
+[5.518089] (bag_recorder) StdoutLine: {'line': b'byte-compiling /home/dev/ORobotics/localization_ws/install/bag_recorder/lib/python3.10/site-packages/bag_recorder/bag_recorder.py to bag_recorder.cpython-310.pyc\n'}
+[5.524548] (bag_recorder) StdoutLine: {'line': b'running install_data\n'}
+[5.525649] (bag_recorder) StdoutLine: {'line': b'copying launch/bag_record.launch.py -> /home/dev/ORobotics/localization_ws/install/bag_recorder/share/bag_recorder/launch\n'}
+[5.526963] (bag_recorder) StdoutLine: {'line': b'copying launch/bag_record_yaml.launch.py -> /home/dev/ORobotics/localization_ws/install/bag_recorder/share/bag_recorder/launch\n'}
+[5.528661] (bag_recorder) StdoutLine: {'line': b'creating /home/dev/ORobotics/localization_ws/install/bag_recorder/share/bag_recorder/config\n'}
+[5.529514] (bag_recorder) StdoutLine: {'line': b'copying config/bag_config.yaml -> /home/dev/ORobotics/localization_ws/install/bag_recorder/share/bag_recorder/config\n'}
+[5.530320] (bag_recorder) StdoutLine: {'line': b'copying config/compressed_config.yaml -> /home/dev/ORobotics/localization_ws/install/bag_recorder/share/bag_recorder/config\n'}
+[5.531133] (bag_recorder) StdoutLine: {'line': b'copying config/extended_sensors_config.yaml -> /home/dev/ORobotics/localization_ws/install/bag_recorder/share/bag_recorder/config\n'}
+[5.531927] (bag_recorder) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.540684] (bag_recorder) StdoutLine: {'line': b"removing '/home/dev/ORobotics/localization_ws/install/bag_recorder/lib/python3.10/site-packages/bag_recorder-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[5.543017] (bag_recorder) StdoutLine: {'line': b'Copying ../../build/bag_recorder/bag_recorder.egg-info to /home/dev/ORobotics/localization_ws/install/bag_recorder/lib/python3.10/site-packages/bag_recorder-0.0.0-py3.10.egg-info\n'}
+[5.556368] (bag_recorder) StdoutLine: {'line': b'running install_scripts\n'}
+[5.565095] (-) TimerEvent: {}
+[5.645501] (bag_recorder) StdoutLine: {'line': b'Installing bag_recorder script to /home/dev/ORobotics/localization_ws/install/bag_recorder/lib/gnss_imu_bag_recorder\n'}
+[5.647631] (bag_recorder) StdoutLine: {'line': b"writing list of installed files to '/home/dev/ORobotics/localization_ws/build/bag_recorder/install.log'\n"}
+[5.665411] (-) TimerEvent: {}
+[5.770367] (-) TimerEvent: {}
+[5.787526] (bag_recorder) CommandEnded: {'returncode': 0}
+[5.863386] (bag_recorder) JobEnded: {'identifier': 'bag_recorder', 'rc': 0}
+[5.866984] (-) EventReactorShutdown: {}

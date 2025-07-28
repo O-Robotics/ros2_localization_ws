@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-8aa0f88b2774992d8d4e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "rtcm_msgs__py",
+					"jsonFile" : "directory-rtcm_msgs__py-308a670d0198fba79972.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/dev/ORobotics/localization_ws/build/rtcm_msgs/rtcm_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "rtcm_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_rtcm_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_rtcm_msgs_egg-defe8720062d2de8a129.json",
+					"name" : "ament_cmake_python_build_rtcm_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_rtcm_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_rtcm_msgs-889098ded555aaae4e3c.json",
+					"name" : "ament_cmake_python_copy_rtcm_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rtcm_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rtcm_msgs-1b759b8bd10ad94b7882.json",
+					"name" : "rtcm_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rtcm_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rtcm_msgs__cpp-fe3a37269c70b35b4dcb.json",
+					"name" : "rtcm_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "rtcm_msgs__py::@c500b9c429fbfc7a0872",
+					"jsonFile" : "target-rtcm_msgs__py-9b69b54ba5ad882f3629.json",
+					"name" : "rtcm_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rtcm_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rtcm_msgs__rosidl_generator_c-f8230978c0cee4048439.json",
+					"name" : "rtcm_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rtcm_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rtcm_msgs__rosidl_generator_py-196bf034541ece65d275.json",
+					"name" : "rtcm_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rtcm_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rtcm_msgs__rosidl_typesupport_c-c25023410ea23bdef443.json",
+					"name" : "rtcm_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rtcm_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rtcm_msgs__rosidl_typesupport_c__pyext-c3057572a8acec60aa65.json",
+					"name" : "rtcm_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rtcm_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rtcm_msgs__rosidl_typesupport_cpp-913d286a0db398efebb9.json",
+					"name" : "rtcm_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rtcm_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rtcm_msgs__rosidl_typesupport_fastrtps_c-43f5f0a1543ea128bed1.json",
+					"name" : "rtcm_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rtcm_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rtcm_msgs__rosidl_typesupport_fastrtps_c__pyext-7c907fdb1dd82767aab6.json",
+					"name" : "rtcm_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rtcm_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rtcm_msgs__rosidl_typesupport_fastrtps_cpp-48ed8c6b938e3fea8b7e.json",
+					"name" : "rtcm_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rtcm_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rtcm_msgs__rosidl_typesupport_introspection_c-c588d0973a4a2198d212.json",
+					"name" : "rtcm_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rtcm_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rtcm_msgs__rosidl_typesupport_introspection_c__pyext-55080d14aac927f3fa6e.json",
+					"name" : "rtcm_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rtcm_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rtcm_msgs__rosidl_typesupport_introspection_cpp-26bd7edc45840f410f6b.json",
+					"name" : "rtcm_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rtcm_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rtcm_msgs_uninstall-268464f478a3c1844dfd.json",
+					"name" : "rtcm_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-5afb90ded5866c78c996.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/dev/ORobotics/localization_ws/build/rtcm_msgs",
+		"source" : "/home/dev/ORobotics/localization_ws/src/rtcm_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

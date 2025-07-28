@@ -1,0 +1,35 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ublox_ubx_msgs/msg/OtherOrbInfo.msg
+// generated code does not contain a copyright notice
+
+
+module ublox_ubx_msgs {
+  module msg {
+    module OtherOrbInfo_Constants {
+      @verbatim (language="comment", text=
+        "The usability period is unknown")
+      const uint8 ANO_AOP_USABILITY_UNKNOWN = 31;
+      @verbatim (language="comment", text=
+        "The usability period is more than 30 days")
+      const uint8 ANO_AOP_USABILITY_OVER_30_DAYS = 30;
+      @verbatim (language="comment", text=
+        "Data can no longer be used")
+      const uint8 ANO_AOP_USABILITY_EXPIRED = 0;
+      const uint8 TYPE_NO_ORBIT_DATA = 0;
+      const uint8 TYPE_ASSISTNOW_OFFLINE = 1;
+      const uint8 TYPE_ASSISTNOW_AUTONOMOUS = 2;
+    };
+    @verbatim (language="comment", text=
+      "Bit field structure for otherOrb")
+    struct OtherOrbInfo {
+      @verbatim (language="comment", text=
+        "How long the receiver will be able to use the orbit data from now on." "\n"
+        "For 30 > n > 0, the usability period is between n-1 and n days.")
+      uint8 ano_aop_usability;
+
+      @verbatim (language="comment", text=
+        "Type of orbit data")
+      uint8 orb_type;
+    };
+  };
+};

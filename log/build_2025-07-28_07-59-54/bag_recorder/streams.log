@@ -1,0 +1,21 @@
+[11.596s] Invoking command in '/home/dev/ORobotics/localization_ws/src/bag_recorder': PYTHONPATH=/home/dev/ORobotics/localization_ws/build/bag_recorder/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dev/ORobotics/localization_ws/install/bag_recorder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/bag_recorder build --build-base /home/dev/ORobotics/localization_ws/build/bag_recorder/build install --record /home/dev/ORobotics/localization_ws/build/bag_recorder/install.log --single-version-externally-managed install_data
+[16.838s] running egg_info
+[16.860s] writing ../../build/bag_recorder/bag_recorder.egg-info/PKG-INFO
+[16.869s] writing dependency_links to ../../build/bag_recorder/bag_recorder.egg-info/dependency_links.txt
+[16.874s] writing entry points to ../../build/bag_recorder/bag_recorder.egg-info/entry_points.txt
+[16.886s] writing requirements to ../../build/bag_recorder/bag_recorder.egg-info/requires.txt
+[16.894s] writing top-level names to ../../build/bag_recorder/bag_recorder.egg-info/top_level.txt
+[16.916s] reading manifest file '../../build/bag_recorder/bag_recorder.egg-info/SOURCES.txt'
+[16.942s] writing manifest file '../../build/bag_recorder/bag_recorder.egg-info/SOURCES.txt'
+[16.946s] running build
+[16.948s] running build_py
+[16.957s] running install
+[16.988s] running install_lib
+[17.016s] running install_data
+[17.017s] running install_egg_info
+[17.061s] removing '/home/dev/ORobotics/localization_ws/install/bag_recorder/lib/python3.10/site-packages/bag_recorder-0.0.0-py3.10.egg-info' (and everything under it)
+[17.076s] Copying ../../build/bag_recorder/bag_recorder.egg-info to /home/dev/ORobotics/localization_ws/install/bag_recorder/lib/python3.10/site-packages/bag_recorder-0.0.0-py3.10.egg-info
+[17.092s] running install_scripts
+[17.739s] Installing bag_recorder script to /home/dev/ORobotics/localization_ws/install/bag_recorder/lib/gnss_imu_bag_recorder
+[17.744s] writing list of installed files to '/home/dev/ORobotics/localization_ws/build/bag_recorder/install.log'
+[18.319s] Invoked command in '/home/dev/ORobotics/localization_ws/src/bag_recorder' returned '0': PYTHONPATH=/home/dev/ORobotics/localization_ws/build/bag_recorder/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dev/ORobotics/localization_ws/install/bag_recorder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/bag_recorder build --build-base /home/dev/ORobotics/localization_ws/build/bag_recorder/build install --record /home/dev/ORobotics/localization_ws/build/bag_recorder/install.log --single-version-externally-managed install_data

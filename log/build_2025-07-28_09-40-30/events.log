@@ -1,0 +1,123 @@
+[0.000000] (-) TimerEvent: {}
+[0.004061] (-) JobUnselected: {'identifier': 'amr_sweeper_description'}
+[0.004919] (-) JobUnselected: {'identifier': 'bag_recorder'}
+[0.006499] (-) JobUnselected: {'identifier': 'imu_offset_calibration'}
+[0.008022] (-) JobUnselected: {'identifier': 'nav2_costmap_filters_demo'}
+[0.009895] (-) JobUnselected: {'identifier': 'nav2_gps_waypoint_follower_demo'}
+[0.011638] (-) JobUnselected: {'identifier': 'nav2_gradient_costmap_plugin'}
+[0.012762] (-) JobUnselected: {'identifier': 'nav2_pure_pursuit_controller'}
+[0.013758] (-) JobUnselected: {'identifier': 'nav2_sms_behavior'}
+[0.014764] (-) JobUnselected: {'identifier': 'nav2_straightline_planner'}
+[0.015706] (-) JobUnselected: {'identifier': 'ntrip_client_node'}
+[0.017100] (-) JobUnselected: {'identifier': 'rtcm_msgs'}
+[0.017976] (-) JobUnselected: {'identifier': 'sam_bot_description'}
+[0.018759] (-) JobUnselected: {'identifier': 'ublox_dgnss'}
+[0.019534] (-) JobUnselected: {'identifier': 'ublox_dgnss_node'}
+[0.020402] (-) JobUnselected: {'identifier': 'ublox_nav_sat_fix_hp_node'}
+[0.021364] (-) JobUnselected: {'identifier': 'ublox_ubx_interfaces'}
+[0.022342] (-) JobUnselected: {'identifier': 'ublox_ubx_msgs'}
+[0.024734] (-) JobUnselected: {'identifier': 'wit_ros2_imu'}
+[0.026939] (gnss_imu_robot_localization) JobQueued: {'identifier': 'gnss_imu_robot_localization', 'dependencies': OrderedDict()}
+[0.027614] (gnss_imu_robot_localization) JobStarted: {'identifier': 'gnss_imu_robot_localization'}
+[0.098696] (-) TimerEvent: {}
+[0.199768] (-) TimerEvent: {}
+[0.301425] (-) TimerEvent: {}
+[0.402407] (-) TimerEvent: {}
+[0.503794] (-) TimerEvent: {}
+[0.604872] (-) TimerEvent: {}
+[0.706152] (-) TimerEvent: {}
+[0.807070] (-) TimerEvent: {}
+[0.909113] (-) TimerEvent: {}
+[1.010404] (-) TimerEvent: {}
+[1.112279] (-) TimerEvent: {}
+[1.213337] (-) TimerEvent: {}
+[1.314155] (-) TimerEvent: {}
+[1.415072] (-) TimerEvent: {}
+[1.515930] (-) TimerEvent: {}
+[1.616751] (-) TimerEvent: {}
+[1.717829] (-) TimerEvent: {}
+[1.820463] (-) TimerEvent: {}
+[1.923843] (-) TimerEvent: {}
+[2.024780] (-) TimerEvent: {}
+[2.126598] (-) TimerEvent: {}
+[2.228571] (-) TimerEvent: {}
+[2.330810] (-) TimerEvent: {}
+[2.432232] (-) TimerEvent: {}
+[2.533052] (-) TimerEvent: {}
+[2.634413] (-) TimerEvent: {}
+[2.735918] (-) TimerEvent: {}
+[2.837743] (-) TimerEvent: {}
+[2.940174] (-) TimerEvent: {}
+[3.045165] (-) TimerEvent: {}
+[3.150177] (-) TimerEvent: {}
+[3.252241] (-) TimerEvent: {}
+[3.354212] (-) TimerEvent: {}
+[3.455125] (-) TimerEvent: {}
+[3.557333] (-) TimerEvent: {}
+[3.658236] (-) TimerEvent: {}
+[3.759135] (-) TimerEvent: {}
+[3.859935] (-) TimerEvent: {}
+[3.960834] (-) TimerEvent: {}
+[4.061948] (-) TimerEvent: {}
+[4.163556] (-) TimerEvent: {}
+[4.264547] (-) TimerEvent: {}
+[4.365743] (-) TimerEvent: {}
+[4.466722] (-) TimerEvent: {}
+[4.567579] (-) TimerEvent: {}
+[4.668430] (-) TimerEvent: {}
+[4.769285] (-) TimerEvent: {}
+[4.870810] (-) TimerEvent: {}
+[4.972741] (-) TimerEvent: {}
+[5.074133] (-) TimerEvent: {}
+[5.175791] (-) TimerEvent: {}
+[5.215193] (gnss_imu_robot_localization) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/gnss_imu_robot_localization', 'build', '--build-base', '/home/dev/ORobotics/localization_ws/build/gnss_imu_robot_localization/build', 'install', '--record', '/home/dev/ORobotics/localization_ws/build/gnss_imu_robot_localization/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/dev/ORobotics/localization_ws/src/gnss_imu_robot_localization', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'dev', 'SSH_CLIENT': '192.168.2.0 64072 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/dev/.windsurf-server/bin/7ebe3c84f46e15cc83584023b53a4988df13f475/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/dev/ORobotics/localization_ws/install/ublox_nav_sat_fix_hp_node/lib:/home/dev/ORobotics/localization_ws/install/ublox_dgnss_node/lib:/home/dev/ORobotics/localization_ws/install/ublox_ubx_msgs/lib:/home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/lib:/home/dev/ORobotics/localization_ws/install/ntrip_client_node/lib:/home/dev/ORobotics/localization_ws/install/rtcm_msgs/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/dev/.windsurf-server/bin/7ebe3c84f46e15cc83584023b53a4988df13f475/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/dev', 'OLDPWD': '/home/dev/ORobotics/localization_ws/src/bag_recorder/scripts', 'TERM_PROGRAM_VERSION': '1.99.3', 'VSCODE_IPC_HOOK_CLI': '/run/user/1001/vscode-ipc-e29c9ee3-728d-48ab-aae3-e3f334fa59ac.sock', 'ROS_PYTHON_VERSION': '3', 'PAGER': 'cat', 'VSCODE_GIT_ASKPASS_MAIN': '/home/dev/.windsurf-server/bin/7ebe3c84f46e15cc83584023b53a4988df13f475/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/dev/.windsurf-server/bin/7ebe3c84f46e15cc83584023b53a4988df13f475/node', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/dev/.windsurf-server/extensions/ms-python.debugpy-2025.6.0-linux-arm64/bundled/libs/debugpy', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1001/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/dev/ORobotics/localization_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'dev', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '83', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/dev/.windsurf-server/bin/7ebe3c84f46e15cc83584023b53a4988df13f475/bin/remote-cli:/home/dev/.local/bin:/opt/ros/humble/bin:/home/dev/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/dev/.windsurf-server/extensions/ms-python.debugpy-2025.6.0-linux-arm64/bundled/scripts/noConfigScripts', 'XDG_RUNTIME_DIR': '/run/user/1001', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/dev/.windsurf-server/extensions/ms-python.debugpy-2025.6.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-8115f8119c5f2bb4.txt', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1001/vscode-git-c890c40aaa.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/dev/ORobotics/localization_ws/install/wit_ros2_imu:/home/dev/ORobotics/localization_ws/install/ublox_nav_sat_fix_hp_node:/home/dev/ORobotics/localization_ws/install/ublox_dgnss_node:/home/dev/ORobotics/localization_ws/install/ublox_ubx_msgs:/home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces:/home/dev/ORobotics/localization_ws/install/ntrip_client_node:/home/dev/ORobotics/localization_ws/install/rtcm_msgs:/home/dev/ORobotics/localization_ws/install/nav2_gps_waypoint_follower_demo:/home/dev/ORobotics/localization_ws/install/nav2_costmap_filters_demo:/home/dev/ORobotics/localization_ws/install/imu_offset_calibration:/home/dev/ORobotics/localization_ws/install/gnss_imu_robot_localization:/home/dev/ORobotics/localization_ws/install/amr_sweeper_description:/home/dev/ORobotics/localization_ws/install/bag_recorder:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/dev/ORobotics/localization_ws/build/gnss_imu_robot_localization', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.2.0 64072 192.168.2.1 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/dev/ORobotics/localization_ws/build/gnss_imu_robot_localization/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dev/ORobotics/localization_ws/install/gnss_imu_robot_localization/lib/python3.10/site-packages:/home/dev/ORobotics/localization_ws/install/wit_ros2_imu/lib/python3.10/site-packages:/home/dev/ORobotics/localization_ws/install/ublox_ubx_msgs/local/lib/python3.10/dist-packages:/home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces/local/lib/python3.10/dist-packages:/home/dev/ORobotics/localization_ws/install/rtcm_msgs/local/lib/python3.10/dist-packages:/home/dev/ORobotics/localization_ws/install/nav2_gps_waypoint_follower_demo/lib/python3.10/site-packages:/home/dev/ORobotics/localization_ws/install/imu_offset_calibration/lib/python3.10/site-packages:/home/dev/ORobotics/localization_ws/install/gnss_imu_robot_localization/lib/python3.10/site-packages:/home/dev/ORobotics/localization_ws/install/bag_recorder/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/dev/ORobotics/localization_ws/install/ublox_nav_sat_fix_hp_node:/home/dev/ORobotics/localization_ws/install/ublox_dgnss_node:/home/dev/ORobotics/localization_ws/install/ublox_ubx_msgs:/home/dev/ORobotics/localization_ws/install/ublox_ubx_interfaces:/home/dev/ORobotics/localization_ws/install/ntrip_client_node:/home/dev/ORobotics/localization_ws/install/rtcm_msgs:/home/dev/ORobotics/localization_ws/install/nav2_costmap_filters_demo:/home/dev/ORobotics/localization_ws/install/amr_sweeper_description'}, 'shell': False}
+[5.277483] (-) TimerEvent: {}
+[5.378531] (-) TimerEvent: {}
+[5.479422] (-) TimerEvent: {}
+[5.582004] (-) TimerEvent: {}
+[5.684624] (-) TimerEvent: {}
+[5.787242] (-) TimerEvent: {}
+[5.889893] (-) TimerEvent: {}
+[5.990783] (-) TimerEvent: {}
+[6.093074] (-) TimerEvent: {}
+[6.194009] (-) TimerEvent: {}
+[6.296275] (-) TimerEvent: {}
+[6.397689] (-) TimerEvent: {}
+[6.501201] (-) TimerEvent: {}
+[6.605612] (-) TimerEvent: {}
+[6.707347] (-) TimerEvent: {}
+[6.810080] (-) TimerEvent: {}
+[6.912646] (-) TimerEvent: {}
+[7.013794] (-) TimerEvent: {}
+[7.115671] (-) TimerEvent: {}
+[7.216528] (-) TimerEvent: {}
+[7.318892] (-) TimerEvent: {}
+[7.412829] (gnss_imu_robot_localization) StdoutLine: {'line': b'running egg_info\n'}
+[7.416611] (gnss_imu_robot_localization) StdoutLine: {'line': b'writing ../../build/gnss_imu_robot_localization/gnss_imu_robot_localization.egg-info/PKG-INFO\n'}
+[7.418143] (gnss_imu_robot_localization) StdoutLine: {'line': b'writing dependency_links to ../../build/gnss_imu_robot_localization/gnss_imu_robot_localization.egg-info/dependency_links.txt\n'}
+[7.419010] (-) TimerEvent: {}
+[7.421413] (gnss_imu_robot_localization) StdoutLine: {'line': b'writing requirements to ../../build/gnss_imu_robot_localization/gnss_imu_robot_localization.egg-info/requires.txt\n'}
+[7.422166] (gnss_imu_robot_localization) StdoutLine: {'line': b'writing top-level names to ../../build/gnss_imu_robot_localization/gnss_imu_robot_localization.egg-info/top_level.txt\n'}
+[7.432760] (gnss_imu_robot_localization) StdoutLine: {'line': b"reading manifest file '../../build/gnss_imu_robot_localization/gnss_imu_robot_localization.egg-info/SOURCES.txt'\n"}
+[7.434957] (gnss_imu_robot_localization) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[7.439210] (gnss_imu_robot_localization) StdoutLine: {'line': b"writing manifest file '../../build/gnss_imu_robot_localization/gnss_imu_robot_localization.egg-info/SOURCES.txt'\n"}
+[7.440529] (gnss_imu_robot_localization) StdoutLine: {'line': b'running build\n'}
+[7.441184] (gnss_imu_robot_localization) StdoutLine: {'line': b'running build_py\n'}
+[7.441975] (gnss_imu_robot_localization) StdoutLine: {'line': b'running install\n'}
+[7.443639] (gnss_imu_robot_localization) StdoutLine: {'line': b'running install_lib\n'}
+[7.452515] (gnss_imu_robot_localization) StdoutLine: {'line': b'byte-compiling /home/dev/ORobotics/localization_ws/install/gnss_imu_robot_localization/lib/python3.10/site-packages/gnss_imu_robot_localization/__init__.py to __init__.cpython-310.pyc\n'}
+[7.454976] (gnss_imu_robot_localization) StdoutLine: {'line': b'running install_data\n'}
+[7.457251] (gnss_imu_robot_localization) StdoutLine: {'line': b'copying launch/bringup.launch.py -> /home/dev/ORobotics/localization_ws/install/gnss_imu_robot_localization/share/gnss_imu_robot_localization/launch\n'}
+[7.459670] (gnss_imu_robot_localization) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.475417] (gnss_imu_robot_localization) StdoutLine: {'line': b"removing '/home/dev/ORobotics/localization_ws/install/gnss_imu_robot_localization/lib/python3.10/site-packages/gnss_imu_robot_localization-0.0.1-py3.10.egg-info' (and everything under it)\n"}
+[7.477821] (gnss_imu_robot_localization) StdoutLine: {'line': b'Copying ../../build/gnss_imu_robot_localization/gnss_imu_robot_localization.egg-info to /home/dev/ORobotics/localization_ws/install/gnss_imu_robot_localization/lib/python3.10/site-packages/gnss_imu_robot_localization-0.0.1-py3.10.egg-info\n'}
+[7.486993] (gnss_imu_robot_localization) StdoutLine: {'line': b'running install_scripts\n'}
+[7.519292] (-) TimerEvent: {}
+[7.615861] (gnss_imu_robot_localization) StdoutLine: {'line': b"writing list of installed files to '/home/dev/ORobotics/localization_ws/build/gnss_imu_robot_localization/install.log'\n"}
+[7.620149] (-) TimerEvent: {}
+[7.723701] (-) TimerEvent: {}
+[7.828308] (gnss_imu_robot_localization) CommandEnded: {'returncode': 0}
+[7.830411] (-) TimerEvent: {}
+[7.925075] (gnss_imu_robot_localization) JobEnded: {'identifier': 'gnss_imu_robot_localization', 'rc': 0}
+[7.931368] (-) TimerEvent: {}
+[7.933892] (-) EventReactorShutdown: {}

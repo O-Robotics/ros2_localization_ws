@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from ublox_ubx_interfaces/srv/WarmStart.srv
+// generated code does not contain a copyright notice
+
+
+module ublox_ubx_interfaces {
+  module srv {
+    struct WarmStart_Request {
+      uint8 reset_type;
+    };
+    struct WarmStart_Response {
+      uint8 structure_needs_at_least_one_member;
+    };
+  };
+};

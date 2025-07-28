@@ -1,0 +1,9 @@
+{
+  "package_name": "ublox_ubx_interfaces",
+  "non_idl_tuples": [
+    "/home/dev/ORobotics/localization_ws/src/ublox_dgnss/ublox_ubx_interfaces:srv/HotStart.srv",
+    "/home/dev/ORobotics/localization_ws/src/ublox_dgnss/ublox_ubx_interfaces:srv/WarmStart.srv",
+    "/home/dev/ORobotics/localization_ws/src/ublox_dgnss/ublox_ubx_interfaces:srv/ColdStart.srv",
+    "/home/dev/ORobotics/localization_ws/src/ublox_dgnss/ublox_ubx_interfaces:srv/ResetODO.srv"
+  ]
+}

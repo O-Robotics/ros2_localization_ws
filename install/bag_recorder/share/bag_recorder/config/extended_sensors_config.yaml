@@ -1,0 +1,27 @@
+bag_recorder:
+  ros__parameters:
+    # Output configuration for extended sensor recording
+    output_dir: "~/ros2_bags"
+    bag_name: "extended_sensors"
+    
+    # Extended sensor topics (example for future use)
+    topics: [
+      "/imu/raw_data", 
+      "/fix",
+      # Uncomment below when these sensors are available:
+      # "/camera/image_raw",
+      # "/camera/camera_info", 
+      # "/wheel_odom",
+      # "/scan"
+    ]
+    
+    # Recording limits (for longer sessions)
+    max_bag_duration: 300     # 5 min
+    max_bag_size: 5000      # 5GB
+    
+    # Compression settings (balanced)
+    compression_mode: "file"
+    compression_format: "lz4"  # faster compression for real-time
+    
+    # Storage format
+    storage_format: "mcap"

@@ -1,0 +1,43 @@
+[13.453s] Invoking command in '/home/dev/ORobotics/localization_ws/src/gnss_imu_robot_localization': PYTHONPATH=/home/dev/ORobotics/localization_ws/build/gnss_imu_robot_localization/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dev/ORobotics/localization_ws/install/gnss_imu_robot_localization/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/gnss_imu_robot_localization build --build-base /home/dev/ORobotics/localization_ws/build/gnss_imu_robot_localization/build install --record /home/dev/ORobotics/localization_ws/build/gnss_imu_robot_localization/install.log --single-version-externally-managed install_data
+[18.859s] running egg_info
+[18.871s] creating ../../build/gnss_imu_robot_localization/gnss_imu_robot_localization.egg-info
+[18.883s] writing ../../build/gnss_imu_robot_localization/gnss_imu_robot_localization.egg-info/PKG-INFO
+[18.894s] writing dependency_links to ../../build/gnss_imu_robot_localization/gnss_imu_robot_localization.egg-info/dependency_links.txt
+[18.903s] writing requirements to ../../build/gnss_imu_robot_localization/gnss_imu_robot_localization.egg-info/requires.txt
+[18.918s] writing top-level names to ../../build/gnss_imu_robot_localization/gnss_imu_robot_localization.egg-info/top_level.txt
+[18.923s] writing manifest file '../../build/gnss_imu_robot_localization/gnss_imu_robot_localization.egg-info/SOURCES.txt'
+[18.974s] reading manifest file '../../build/gnss_imu_robot_localization/gnss_imu_robot_localization.egg-info/SOURCES.txt'
+[18.981s] adding license file 'LICENSE'
+[18.995s] writing manifest file '../../build/gnss_imu_robot_localization/gnss_imu_robot_localization.egg-info/SOURCES.txt'
+[19.017s] running build
+[19.019s] running build_py
+[19.023s] creating /home/dev/ORobotics/localization_ws/build/gnss_imu_robot_localization/build
+[19.026s] creating /home/dev/ORobotics/localization_ws/build/gnss_imu_robot_localization/build/lib
+[19.030s] creating /home/dev/ORobotics/localization_ws/build/gnss_imu_robot_localization/build/lib/gnss_imu_robot_localization
+[19.035s] copying gnss_imu_robot_localization/__init__.py -> /home/dev/ORobotics/localization_ws/build/gnss_imu_robot_localization/build/lib/gnss_imu_robot_localization
+[19.040s] running install
+[19.045s] running install_lib
+[19.077s] creating /home/dev/ORobotics/localization_ws/install/gnss_imu_robot_localization/lib/python3.10/site-packages/gnss_imu_robot_localization
+[19.080s] copying /home/dev/ORobotics/localization_ws/build/gnss_imu_robot_localization/build/lib/gnss_imu_robot_localization/__init__.py -> /home/dev/ORobotics/localization_ws/install/gnss_imu_robot_localization/lib/python3.10/site-packages/gnss_imu_robot_localization
+[19.098s] byte-compiling /home/dev/ORobotics/localization_ws/install/gnss_imu_robot_localization/lib/python3.10/site-packages/gnss_imu_robot_localization/__init__.py to __init__.cpython-310.pyc
+[19.121s] running install_data
+[19.124s] creating /home/dev/ORobotics/localization_ws/install/gnss_imu_robot_localization/share/ament_index
+[19.127s] creating /home/dev/ORobotics/localization_ws/install/gnss_imu_robot_localization/share/ament_index/resource_index
+[19.130s] creating /home/dev/ORobotics/localization_ws/install/gnss_imu_robot_localization/share/ament_index/resource_index/packages
+[19.140s] copying resource/gnss_imu_robot_localization -> /home/dev/ORobotics/localization_ws/install/gnss_imu_robot_localization/share/ament_index/resource_index/packages
+[19.144s] copying package.xml -> /home/dev/ORobotics/localization_ws/install/gnss_imu_robot_localization/share/gnss_imu_robot_localization
+[19.149s] creating /home/dev/ORobotics/localization_ws/install/gnss_imu_robot_localization/share/gnss_imu_robot_localization/launch
+[19.172s] copying launch/ekf_odm.launch.py -> /home/dev/ORobotics/localization_ws/install/gnss_imu_robot_localization/share/gnss_imu_robot_localization/launch
+[19.183s] copying launch/ekf_map.launch.py -> /home/dev/ORobotics/localization_ws/install/gnss_imu_robot_localization/share/gnss_imu_robot_localization/launch
+[19.187s] copying launch/navsat_transform.launch.py -> /home/dev/ORobotics/localization_ws/install/gnss_imu_robot_localization/share/gnss_imu_robot_localization/launch
+[19.193s] copying launch/bringup.launch.py -> /home/dev/ORobotics/localization_ws/install/gnss_imu_robot_localization/share/gnss_imu_robot_localization/launch
+[19.198s] copying launch/combo_bringup.launch.py -> /home/dev/ORobotics/localization_ws/install/gnss_imu_robot_localization/share/gnss_imu_robot_localization/launch
+[19.201s] creating /home/dev/ORobotics/localization_ws/install/gnss_imu_robot_localization/share/gnss_imu_robot_localization/config
+[19.205s] copying config/ekf_odm.yaml -> /home/dev/ORobotics/localization_ws/install/gnss_imu_robot_localization/share/gnss_imu_robot_localization/config
+[19.217s] copying config/ekf_map.yaml -> /home/dev/ORobotics/localization_ws/install/gnss_imu_robot_localization/share/gnss_imu_robot_localization/config
+[19.225s] copying config/navsat_transform.yaml -> /home/dev/ORobotics/localization_ws/install/gnss_imu_robot_localization/share/gnss_imu_robot_localization/config
+[19.228s] running install_egg_info
+[19.272s] Copying ../../build/gnss_imu_robot_localization/gnss_imu_robot_localization.egg-info to /home/dev/ORobotics/localization_ws/install/gnss_imu_robot_localization/lib/python3.10/site-packages/gnss_imu_robot_localization-0.0.1-py3.10.egg-info
+[19.318s] running install_scripts
+[19.772s] writing list of installed files to '/home/dev/ORobotics/localization_ws/build/gnss_imu_robot_localization/install.log'
+[20.279s] Invoked command in '/home/dev/ORobotics/localization_ws/src/gnss_imu_robot_localization' returned '0': PYTHONPATH=/home/dev/ORobotics/localization_ws/build/gnss_imu_robot_localization/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dev/ORobotics/localization_ws/install/gnss_imu_robot_localization/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/gnss_imu_robot_localization build --build-base /home/dev/ORobotics/localization_ws/build/gnss_imu_robot_localization/build install --record /home/dev/ORobotics/localization_ws/build/gnss_imu_robot_localization/install.log --single-version-externally-managed install_data

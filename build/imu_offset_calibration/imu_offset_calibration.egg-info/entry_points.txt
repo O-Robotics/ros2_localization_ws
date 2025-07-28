@@ -1,0 +1,3 @@
+[console_scripts]
+imu_pitch_reader = imu_offset_calibration.imu_pitch_reader:main
+

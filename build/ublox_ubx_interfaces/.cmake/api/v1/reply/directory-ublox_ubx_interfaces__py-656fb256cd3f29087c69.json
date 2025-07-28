@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "ublox_ubx_interfaces__py",
+		"source" : "/home/dev/ORobotics/localization_ws/build/ublox_ubx_interfaces/ublox_ubx_interfaces__py"
+	}
+}

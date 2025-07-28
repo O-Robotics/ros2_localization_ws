@@ -1,0 +1,70 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ublox_ubx_msgs/msg/UBXNavTimeUTC.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+#include "ublox_ubx_msgs/msg/UtcStd.idl"
+
+module ublox_ubx_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "this message contains a UBX-NAV-EOE (0x01 0x21) record UTC Time Solution")
+    struct UBXNavTimeUTC {
+      @verbatim (language="comment", text=
+        "Header timestamp should be acquisition time")
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "ms - GPS Time of week of the navigation epoch")
+      uint32 itow;
+
+      @verbatim (language="comment", text=
+        "ns - time accuracy estimate (utc)")
+      uint32 t_acc;
+
+      @verbatim (language="comment", text=
+        "ns - fraction of second, range -1e9 to 1e9 (utc)")
+      int32 nano;
+
+      @verbatim (language="comment", text=
+        "y - year utc")
+      int16 year;
+
+      @verbatim (language="comment", text=
+        "month - month utc")
+      int8 month;
+
+      @verbatim (language="comment", text=
+        "d -day utc")
+      int8 day;
+
+      @verbatim (language="comment", text=
+        "h - hour utc")
+      int8 hour;
+
+      @verbatim (language="comment", text=
+        "min - min utc")
+      int8 min;
+
+      @verbatim (language="comment", text=
+        "s - sec utc")
+      int8 sec;
+
+      @verbatim (language="comment", text=
+        "valid Time of Week")
+      boolean valid_tow;
+
+      @verbatim (language="comment", text=
+        "valid Week Number")
+      boolean valid_wkn;
+
+      @verbatim (language="comment", text=
+        "valid UTC time")
+      boolean valid_utc;
+
+      @verbatim (language="comment", text=
+        "UTC standard identifier")
+      ublox_ubx_msgs::msg::UtcStd utc_std;
+    };
+  };
+};

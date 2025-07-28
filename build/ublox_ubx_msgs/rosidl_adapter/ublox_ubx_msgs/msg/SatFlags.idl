@@ -1,0 +1,86 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ublox_ubx_msgs/msg/SatFlags.msg
+// generated code does not contain a copyright notice
+
+
+module ublox_ubx_msgs {
+  module msg {
+    module SatFlags_Constants {
+      @verbatim (language="comment", text=
+        "Signal quality indicator")
+      const uint8 QUALITY_NO_SIGNAL = 0;
+      const uint8 QUALITY_SEARCHING = 1;
+      const uint8 QUALITY_ACQUIRED = 2;
+      const uint8 QUALITY_UNUSABLE = 3;
+      const uint8 QUALITY_CODE_LOCKED = 4;
+      const uint8 QUALITY_CARRIER_LOCKED = 5;
+      @verbatim (language="comment", text=
+        "Signal health flag")
+      const uint8 HEALTH_UNKNOWN = 0;
+      const uint8 HEALTH_HEALTHY = 1;
+      const uint8 HEALTH_UNHEALTHY = 2;
+      @verbatim (language="comment", text=
+        "Orbit source")
+      const uint8 ORBIT_NO_INFO = 0;
+      const uint8 ORBIT_EPH_USED = 1;
+      const uint8 ORBIT_ALM_USED = 2;
+      const uint8 ORBIT_ASSISTNOW_OFFLINE = 3;
+      const uint8 ORBIT_ASSISTNOW_AUTONOMOUS = 4;
+    };
+    @verbatim (language="comment", text=
+      "Bit field structure for flags in UBX-NAV-SAT (0x01 0x35)")
+    struct SatFlags {
+      uint8 quality_ind;
+
+      @verbatim (language="comment", text=
+        "Signal currently being used for navigation")
+      boolean sv_used;
+
+      uint8 health;
+
+      @verbatim (language="comment", text=
+        "Differential correction data availability")
+      boolean diff_corr;
+
+      @verbatim (language="comment", text=
+        "Carrier smoothed pseudorange used")
+      boolean smoothed;
+
+      uint8 orbit_source;
+
+      @verbatim (language="comment", text=
+        "Ephemeris availability")
+      boolean eph_avail;
+
+      @verbatim (language="comment", text=
+        "Almanac availability")
+      boolean alm_avail;
+
+      @verbatim (language="comment", text=
+        "AssistNow Offline data availability")
+      boolean ano_avail;
+
+      @verbatim (language="comment", text=
+        "AssistNow Autonomous data availability")
+      boolean aop_avail;
+
+      @verbatim (language="comment", text=
+        "Corrections used flags")
+      boolean sbas_corr_used;
+
+      boolean rtcm_corr_used;
+
+      boolean slas_corr_used;
+
+      boolean spartn_corr_used;
+
+      boolean pr_corr_used;
+
+      boolean cr_corr_used;
+
+      boolean do_corr_used;
+
+      boolean clas_corr_used;
+    };
+  };
+};

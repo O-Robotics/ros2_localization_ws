@@ -1,0 +1,40 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ublox_ubx_msgs/msg/OrbSVInfo.msg
+// generated code does not contain a copyright notice
+
+#include "ublox_ubx_msgs/msg/OrbAlmInfo.idl"
+#include "ublox_ubx_msgs/msg/OrbEphInfo.idl"
+#include "ublox_ubx_msgs/msg/OrbSVFlag.idl"
+#include "ublox_ubx_msgs/msg/OtherOrbInfo.idl"
+
+module ublox_ubx_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "Information for each Satellite Vehicle (SV) in the GNSS orbit database")
+    struct OrbSVInfo {
+      @verbatim (language="comment", text=
+        "GNSS ID")
+      uint8 gnss_id;
+
+      @verbatim (language="comment", text=
+        "Satellite ID")
+      uint8 sv_id;
+
+      @verbatim (language="comment", text=
+        "Information Flags for SV")
+      ublox_ubx_msgs::msg::OrbSVFlag sv_flag;
+
+      @verbatim (language="comment", text=
+        "Ephemeris data")
+      ublox_ubx_msgs::msg::OrbEphInfo eph;
+
+      @verbatim (language="comment", text=
+        "Almanac data")
+      ublox_ubx_msgs::msg::OrbAlmInfo alm;
+
+      @verbatim (language="comment", text=
+        "Other orbit data available")
+      ublox_ubx_msgs::msg::OtherOrbInfo other_orb;
+    };
+  };
+};

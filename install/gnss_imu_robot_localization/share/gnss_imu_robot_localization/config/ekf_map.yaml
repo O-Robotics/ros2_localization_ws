@@ -1,0 +1,23 @@
+ekf_filter_node:
+  ros__parameters:
+    frequency: 10.0
+    sensor_timeout: 0.5
+    two_d_mode: true
+    publish_tf: true
+    map_frame: map
+    odom_frame: map
+    base_link_frame: base_link
+    world_frame: map
+
+    odometry0: /gps/filtered
+    odometry0_config: [true,  true,  false,
+                       false, false, false,
+                       false, false, false,
+                       false, false, false]
+    odometry0_differential: false
+    odometry0_relative: false
+
+    use_control: false
+    stamped_control: false
+    print_diagnostics: true
+    debug: false

@@ -1,0 +1,41 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ublox_ubx_msgs/msg/SatInfo.msg
+// generated code does not contain a copyright notice
+
+#include "ublox_ubx_msgs/msg/SatFlags.idl"
+
+module ublox_ubx_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "Information for each Satellite Vehicle")
+    struct SatInfo {
+      @verbatim (language="comment", text=
+        "GNSS identifier")
+      uint8 gnss_id;
+
+      @verbatim (language="comment", text=
+        "Satellite identifier")
+      uint8 sv_id;
+
+      @verbatim (language="comment", text=
+        "dBHz - Carrier to noise ratio (signal strength)")
+      uint8 cno;
+
+      @verbatim (language="comment", text=
+        "deg - Elevation (range: +/-90), unknown if out of range")
+      int8 elev;
+
+      @verbatim (language="comment", text=
+        "deg - Azimuth (range 0-360), unknown if elevation is out of range")
+      int16 azim;
+
+      @verbatim (language="comment", text=
+        "Pseudorange residual (scaled by 0.1)")
+      int16 pr_res;
+
+      @verbatim (language="comment", text=
+        "Bitmask with satellite information")
+      ublox_ubx_msgs::msg::SatFlags flags;
+    };
+  };
+};

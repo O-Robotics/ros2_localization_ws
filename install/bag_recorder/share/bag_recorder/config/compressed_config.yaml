@@ -1,0 +1,19 @@
+bag_recorder:
+  ros__parameters:
+    # Output configuration for compressed recording
+    output_dir: "~/ros2_bags"
+    bag_name: "compressed_recording"
+    
+    # Sensor topics
+    topics: ["/imu/data_raw", "/fix"]
+    
+    # Recording limits
+    max_bag_duration: 300  # 5 minutes
+    max_bag_size: 1000     # 1GB
+    
+    # Compression settings (optimized for size)
+    compression_mode: "file"
+    compression_format: "zstd"
+    
+    # Storage format (sqlite3 - compatible with this ROS2 installation)
+    storage_format: "sqlite3"

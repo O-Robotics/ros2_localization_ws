@@ -1,0 +1,2 @@
+source;share/ntrip_client_node/environment/ament_prefix_path.sh
+source;share/ntrip_client_node/environment/path.sh

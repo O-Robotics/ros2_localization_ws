@@ -1,0 +1,72 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ublox_ubx_msgs/msg/UBXEsfStatus.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+#include "ublox_ubx_msgs/msg/ESFSensorStatus.idl"
+
+module ublox_ubx_msgs {
+  module msg {
+    module UBXEsfStatus_Constants {
+      const uint8 WT_INIT_STATUS_OFF = 0;
+      const uint8 WT_INIT_STATUS_INITIALIZING = 1;
+      const uint8 WT_INIT_STATUS_INITIALIZED = 2;
+      const uint8 MBT_ALG_STATUS_OFF = 0;
+      const uint8 MBT_ALG_STATUS_INITIALIZING = 1;
+      const uint8 MBT_ALG_STATUS_INITIALIZED0 = 2;
+      const uint8 MBT_ALG_STATUS_INITIALIZED1 = 3;
+      const uint8 INS_INIT_STATUS_OFF = 0;
+      const uint8 INS_INIT_STATUS_INITIALIZING = 1;
+      const uint8 INS_INIT_STATUS_INITIALIZED = 2;
+      const uint8 IMU_INIT_STATUS_OFF = 0;
+      const uint8 IMU_INIT_STATUS_INITIALIZING = 1;
+      const uint8 IMU_INIT_STATUS_INITIALIZED = 2;
+      const uint8 FUSION_MODE_INITIALIZATION = 0;
+      const uint8 FUSION_MODE_WORKING = 1;
+      const uint8 FUSION_MODE_SUSPENDED = 2;
+      const uint8 FUSION_MODE_DISABLED = 3;
+    };
+    @verbatim (language="comment", text=
+      "this message contains a UBX-ESF-STATUS (0x10 0x10) record" "\n"
+      "External sesnor fusion status")
+    struct UBXEsfStatus {
+      @verbatim (language="comment", text=
+        "Header timestamp should be acquisition time")
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "ms - GPS Time of week of the navigation epoch")
+      uint32 itow;
+
+      @verbatim (language="comment", text=
+        "message version (0x02 for this version)")
+      uint8 version;
+
+      @verbatim (language="comment", text=
+        "Wheel tick factor initialization status (0: off, 1:initializing, 2: initialized).")
+      uint8 wt_init_status;
+
+      @verbatim (language="comment", text=
+        "Automatic IMU-mount alignment status (0: off, 1:initializing, 2: initialized, 3: initialized).")
+      uint8 mnt_alg_status;
+
+      @verbatim (language="comment", text=
+        "INS initialization status (0: off, 1: initializing, 2:initialized).")
+      uint8 ins_init_status;
+
+      @verbatim (language="comment", text=
+        "IMU initialization status (0: off, 1: initializing, 2:initialized).")
+      uint8 imu_init_status;
+
+      @verbatim (language="comment", text=
+        "0: initialisation, 1 Fusion, 2 Suspended, 3 Disabled")
+      uint8 fusion_mode;
+
+      @verbatim (language="comment", text=
+        "number of sensors")
+      uint8 num_sens;
+
+      sequence<ublox_ubx_msgs::msg::ESFSensorStatus> sensor_statuses;
+    };
+  };
+};
