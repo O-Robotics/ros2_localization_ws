@@ -1,0 +1,16 @@
+Ubuntu 22.04
+
+ROS2 Humble 
+
+Gazebo_sim Harmonic
+
+If you are using Teleop_Twist_Keyboard to control the robot, then remap to cmd_vel_key
+ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args --remap cmd_vel:=cmd_vel_key
+
+To Do:
+
+
+usefull links:
+https://github.com/gazebosim/ros_gz/tree/ros2/ros_gz_bridge 
+https://github.com/gazebosim/gz-sim/tree/gz-sim7 
+http://sdformat.org/spec?elem=sensor&ver=1.9 
