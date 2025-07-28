@@ -1,9 +1,0 @@
-/home/dev/ORobotics/localization_ws/build/amr_sweeper_description/CMakeFiles/uninstall.dir
-/home/dev/ORobotics/localization_ws/build/amr_sweeper_description/CMakeFiles/amr_sweeper_description_uninstall.dir
-/home/dev/ORobotics/localization_ws/build/amr_sweeper_description/CMakeFiles/test.dir
-/home/dev/ORobotics/localization_ws/build/amr_sweeper_description/CMakeFiles/edit_cache.dir
-/home/dev/ORobotics/localization_ws/build/amr_sweeper_description/CMakeFiles/rebuild_cache.dir
-/home/dev/ORobotics/localization_ws/build/amr_sweeper_description/CMakeFiles/list_install_components.dir
-/home/dev/ORobotics/localization_ws/build/amr_sweeper_description/CMakeFiles/install.dir
-/home/dev/ORobotics/localization_ws/build/amr_sweeper_description/CMakeFiles/install/local.dir
-/home/dev/ORobotics/localization_ws/build/amr_sweeper_description/CMakeFiles/install/strip.dir

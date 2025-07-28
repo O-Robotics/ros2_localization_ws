@@ -1,8 +1,0 @@
-setup.py
-rtcm_msgs/__init__.py
-rtcm_msgs.egg-info/PKG-INFO
-rtcm_msgs.egg-info/SOURCES.txt
-rtcm_msgs.egg-info/dependency_links.txt
-rtcm_msgs.egg-info/top_level.txt
-rtcm_msgs/msg/__init__.py
-rtcm_msgs/msg/_message.py

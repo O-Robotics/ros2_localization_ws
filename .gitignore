@@ -1,0 +1,123 @@
+# ROS2 Workspace .gitignore
+
+# Build artifacts (auto-generated)
+build/
+install/
+log/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+.Python
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ROS specific
+devel/
+devel_isolated/
+
+# Bag files (recorded data)
+*.bag
+*.db3
+*.mcap
+ros2_bags/
+bags/
+data/
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Backup files
+*.bak
+*.backup
+
+# Compiled source
+*.com
+*.class
+*.dll
+*.exe
+*.o
+
+# Archives
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+install_manifest.txt
+
+# Colcon specific
+.colcon_install_layout
+.colcon_build_layout
+
+# Git submodules (if you want to track them differently)
+# Uncomment these if you want to ignore submodule content
+# src/*/
+
+# Custom workspace-specific ignores
+# Add any project-specific files to ignore here

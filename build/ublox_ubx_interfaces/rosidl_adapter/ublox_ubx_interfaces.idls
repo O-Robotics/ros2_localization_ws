@@ -1,4 +1,0 @@
-/home/dev/ORobotics/localization_ws/build/ublox_ubx_interfaces/rosidl_adapter/ublox_ubx_interfaces:srv/HotStart.idl
-/home/dev/ORobotics/localization_ws/build/ublox_ubx_interfaces/rosidl_adapter/ublox_ubx_interfaces:srv/WarmStart.idl
-/home/dev/ORobotics/localization_ws/build/ublox_ubx_interfaces/rosidl_adapter/ublox_ubx_interfaces:srv/ColdStart.idl
-/home/dev/ORobotics/localization_ws/build/ublox_ubx_interfaces/rosidl_adapter/ublox_ubx_interfaces:srv/ResetODO.idl
