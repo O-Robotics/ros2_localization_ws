@@ -119,5 +119,9 @@ install_manifest.txt
 # Uncomment these if you want to ignore submodule content
 # src/*/
 
+# ROS2 frame visualization files
+frames_*.gv
+frames_*.pdf
+
 # Custom workspace-specific ignores
 # Add any project-specific files to ignore here
